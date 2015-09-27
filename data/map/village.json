@@ -44,6 +44,7 @@
       "blackwood_inn": {
         "subNodeName": "블랙우드 여관",
         "buildingType": "inn",
+        "outerPath": "blackwood_02",
         "subNodePath": "blackwood_inn",
         "targetTime": {
           "startHour": 0,
@@ -150,6 +151,7 @@
       "cobweb_inn": {
         "subNodeName": "콥웨브 여관",
         "buildingType": "inn",
+        "outerPath": "cobweb_03",
         "subNodePath": "cobweb_inn",
         "backgroundPath":"blackwood_inn",
         "targetTime": {
@@ -228,6 +230,7 @@
       "oberon_inn": {
         "subNodeName": "오베론 여관",
         "buildingType": "inn",
+        "outerPath": "oberon_03",
         "backgroundPath" : "blackwood_inn",
         "subNodePath": "oberon_inn",
         "targetTime": {
@@ -245,6 +248,7 @@
       "oberon_temple": {
         "subNodeName": "오래된 신전",
         "buildingType": "house",
+        "outerPath": "oberon_02",
         "subNodePath": "oberon_temple",
         "targetTime": {
           "startHour": 0,
@@ -365,6 +369,7 @@
       "kadilla_castle_square": {
         "subNodeName": "카딜라 광장",
         "buildingType": "house",
+        "outerPath": "kadilla_castle_03",
         "subNodePath": "kadilla_castle_square",
         "targetTime": {
           "startHour": 0,
@@ -379,6 +384,7 @@
       "kadilla_castle_castlegate": {
         "subNodeName": "카딜라 성문",
         "buildingType": "house",
+        "outerPath": "kadilla_castle_02",
         "subNodePath": "kadilla_castle_castlegate",
         "targetTime": {
           "startHour": 0,
@@ -528,6 +534,7 @@
       "redrose_castle_inn": {
         "subNodeName": "레드로즈 여관",
         "buildingType": "inn",
+        "outerPath": "redrose_castle_02",
         "subNodePath": "redrose_caslte_inn",
         "backgroundPath" : "blackwood_inn",
         "targetTime": {
@@ -558,7 +565,7 @@
       "redrose_castle_castle": {
         "subNodeName": "레드로즈 성문",
         "buildingType": "house",
-        "outerPath": "redrose_castle_castlegate",
+        "outerPath": "redrose_castle_03",
         "subNodePath": "redrose_castle_castlegate",
         "targetTime": {
           "startHour": 0,
@@ -585,6 +592,7 @@
       "mirage_port_inn": {
         "subNodeName": "미라지 포트 여관",
         "buildingType": "inn",
+        "outerPath": "mirage_port_02",
         "subNodePath": "mirage_port_inn",
         "backgroundPath" : "blackwood_inn",
         "targetTime": {
@@ -632,6 +640,7 @@
       "mirage_port_square": {
         "subNodeName": "미라지 포트 광장",
         "buildingType": "house",
+        "outerPath": "mirage_port_02",
         "subNodePath": "mirage_port_square",
         "backgroundPath" : "redrose_castle_square",
         "targetTime": {
@@ -676,6 +685,7 @@
       "middle_ridge_temple": {
         "subNodeName": "파괴된 신전",
         "buildingType": "house",
+        "outerPath": "middle_ridge_02",
         "subNodePath": "middle_ridge_temple",
         "targetTime": {
           "startHour": 0,
@@ -724,6 +734,7 @@
         "subNodeName": "미들릿지 여관",
         "buildingType": "inn",
         "backgroundPath" : "blackwood_inn",
+        "outerPath": "middle_ridge_02",
         "subNodePath": "middle_ridge_inn",
         "targetTime": {
           "startHour": 0,
@@ -757,6 +768,7 @@
       "middle_ridge_training_area": {
         "subNodeName": "용사의 수련장소",
         "buildingType": "house",
+        "outerPath": "middle_ridge_03",
         "subNodePath": "middle_ridge_training_area",
         "targetTime": {
           "startHour": 0,
@@ -766,6 +778,7 @@
       "middle_ridge_farm": {
         "subNodeName": "논밭",
         "buildingType": "house",
+        "outerPath": "middle_ridge_02",
         "subNodePath": "middle_ridge_farm",
         "targetTime": {
           "startHour": 0,
@@ -880,6 +893,7 @@
       "southcape_inn": {
         "subNodeName": "사우스케이프 여관",
         "buildingType": "inn",
+        "outerPath": "southcape_02",
         "subNodePath": "southcape_inn",
         "backgroundPath" : "blackwood_inn",
         "targetTime": {
@@ -1027,6 +1041,7 @@
       "southcape_dock": {
         "subNodeName": "사우스케이프 항구",
         "buildingType": "house",
+        "outerPath": "southcape_03",
         "subNodePath": "southcape_dock",
         "targetTime": {
           "startHour": 0,
