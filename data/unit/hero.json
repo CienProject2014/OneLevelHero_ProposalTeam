@@ -18,8 +18,8 @@
       "electricResistance": 0
     },
     "initialInventoryList": {
-      "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
+      "rightHandGrip": "broad_sword",
+      "leftHandGrip": "round_shield",
       "clothes": "iron_armor"
     },
     "skillList": [
@@ -68,9 +68,9 @@
       "electricResistance": 0
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+      "rightHandGrip": "great_sword",
+      "clothes": "iron_armor"
+    },
     "skillList": [
       "provoke",
       "powerblade",
@@ -98,9 +98,8 @@
       "electricResistance": 10
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+        "rightHandGrip": "bible",
+      "clothes": "cope"},
     "skillList": [
       "cross",
       "heal",
@@ -127,10 +126,7 @@
       "waterResistance": 20,
       "electricResistance": 10
     },
-    "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+    "initialInventoryList": {},
     "skillList": [
       "surpise_attack",
       "flying",
@@ -162,9 +158,8 @@
       "electricResistance": 0
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+        "rightHandGrip": "paulownia_bow",
+      "clothes": "leather_armor"},
     "skillList": [
       "piercearrow",
       "snipe",
@@ -192,9 +187,9 @@
       "electricResistance": 10
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
+        "rightHandGrip": "broad_sword",
       "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+      "clothes": "leather_armor"},
     "skillList": [
       "gale",
       "breeze",
@@ -231,9 +226,8 @@
       "electricResistance": 10
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+        "rightHandGrip": "gloomy_cane",
+      "clothes": "necromantic_dress"},
     "skillList": [
       "casting",
       "soul_cover",
@@ -264,9 +258,8 @@
       "electricResistance": 30
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
-      "clothes": "iron_armor"},
+        "rightHandGrip": "sagediary",
+      "clothes": "magic_lob"},
     "skillList": [
       "casting",
       "amplified_casting",
@@ -297,8 +290,8 @@
       "electricResistance": 0
     },
     "initialInventoryList": {
-        "rightHandGrip": "round_shield",
-      "leftHandGrip": "broad_sword",
+        "rightHandGrip": "broad_sword",
+      "leftHandGrip": "round_shield",
       "clothes": "iron_armor"},
     "skillList": [
       "breeze",
