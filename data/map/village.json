@@ -348,14 +348,14 @@
         "subNodeName": "카딜라 옷가게",
         "buildingType": "house",
         "outerPath": "kadilla_castle_03",
-        "backgroundPath" :"cobweb_clothingstore", 
+        "backgroundPath" :"cobweb_clothing_store", 
         "subNodePath": "kadilla_castle_clothing_store",
         "targetTime": {
           "startHour": 8,
           "endHour": 22
         },
         "buildingNpc": [
-          "kadilla_castle_clothingstore_owner"
+          "kadilla_castle_clothing_store_owner"
         ],
         "gameObject": [
         ]
@@ -633,7 +633,7 @@
           "endHour": 24
         },
         "buildingNpc": [
-          "mirage_port_resident_01"
+          "mirage_port_resident"
         ],
         "gameObject": [
         ]
@@ -769,7 +769,6 @@
           "farmer"
         ],
         "gameObject": [
-          "middle_ridge_holl"
         ]
       }
     }
@@ -790,8 +789,8 @@
         "outerPath": "vaical_castle_02",
         "subNodePath": "vaical_castle_lab",
         "targetTime": {
-          "startHour": 0,
-          "endHour": 24
+          "startHour": 7,
+          "endHour": 22
         },
         "buildingNpc": [
           "fist"
@@ -806,7 +805,7 @@
         "subNodePath": "vaical_castle_headhouse",
         "targetTime": {
           "startHour": 7,
-          "endHour": 24
+          "endHour": 22
         },
         "buildingNpc": [
           "vical_villigehead"
@@ -820,8 +819,8 @@
         "outerPath": "vaical_castle_03",
         "subNodePath": "vaical_castle_colosseum",
         "targetTime": {
-          "startHour": 0,
-          "endHour": 24
+          "startHour": 7,
+          "endHour": 22
         },
         "buildingNpc": [
           "aren"
@@ -1021,6 +1020,78 @@
         },
         "buildingNpc": [
           "captain_jack"
+        ],
+        "gameObject": [
+        ]
+      }
+    }
+  },
+  "bonichea": {
+    "nodePath": "bonichea",
+    "nodeName": "보니체아",
+    "villageDirection": "left_right",
+    "scenePath": "bonichea_scene",
+    "arrowDirection": {},
+    "building": {
+      "bonicea_dock": {
+        "subNodeName": "보니체아 선착장",
+        "buildingType": "house",
+        "outerPath": "bonichea_02",
+        "subNodePath": "bonicea_dock",
+        "targetTime": {
+          "startHour": 0,
+          "endHour": 24
+        },
+        "buildingNpc": [
+          "bonicea_pirate"
+        ],
+        "gameObject": [
+        ]
+      },
+      "bonichea_grocery": {
+        "subNodeName": "보니체아 잡화상점",
+        "buildingType": "house",
+        "outerPath": "bonichea_02",
+        "subNodePath": "bonichea_grocery",
+        "targetTime": {
+          "startHour": 6,
+          "endHour": 22
+        },
+        "buildingNpc": [
+          "bonichea_grocery_owner"
+        ],
+        "gameObject": [
+        ]
+      },
+      "bonichea_inn": {
+        "subNodeName": "보니체아 여관",
+        "buildingType": "inn",
+        "outerPath": "bonichea_03",
+        "subNodePath": "bonichea_inn",
+        "backgroundPath": "blackwood_inn",
+        "targetTime": {
+          "startHour": 0,
+          "endHour": 24
+        },
+        "buildingNpc": [
+          "bonichea_inn_owner"
+        ],
+        "gameObject": [
+          "save",
+          "rest"
+        ]
+      },
+      "bonichea_square": {
+        "subNodeName": "해적왕의 광장",
+        "buildingType": "house",
+        "outerPath": "bonichea_03",
+        "subNodePath": "bonichea_square",
+        "targetTime": {
+          "startHour": 0,
+          "endHour": 24
+        },
+        "buildingNpc": [
+          "diomirhone"
         ],
         "gameObject": [
         ]
