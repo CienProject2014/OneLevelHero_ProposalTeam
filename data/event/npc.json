@@ -299,6 +299,10 @@
     "name":"얄 루이스 로이",
     "facePath":"yalluisroy"
   },
+  "diomirhone":{
+    "name":"디오미론느",
+    "facePath":"diomirhone"
+  },
   "mawang": {
     "name": "마왕",
     "facePath": "mawang"
@@ -433,7 +437,7 @@
       },
       "3": {
         "eventTitle": "몸에 좋은 보약",
-        "eventState": "always_open",
+        "eventState": "opened",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
@@ -1237,16 +1241,6 @@
         },
         "rewards": [
           {
-            "rewardType": "open_npc_event",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "eventPacket": {
-                "eventElement": "blackwood_guest",
-                "eventNumber": 10
-              }
-            }
-          },
-          {
             "rewardType": "pass_time",
             "rewardState": "not_opened",
             "rewardParameter": {
@@ -1274,7 +1268,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "편히 쉬세요.",
+              "script": "저기 손님은 들어온 뒤로 아무 말도 안한다오. 먼가 있어 보이는데...",
               "characterPath": "inn_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2722,7 +2716,7 @@
           "eventScenes": [
             {
               "script": "티타니아 산에 있는 숲의 수호자는 나무나 약초 등을 지키기 위해 모험가들을 공격한다고 하는 군요.",
-              "characterPath": "resident_01",
+              "characterPath": "resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -2965,6 +2959,10 @@
     ]
   },
   
+  "mea":{
+    "name":"메아",
+    "facePath":"mea"
+  },
   "mea_01": {
     "name": "메아",
     "positionIndex": 2,
@@ -3517,7 +3515,18 @@
               "backgroundPath": "blackwood_grocery"
             }
           ]
-        }
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
       },
       "2": {
         "eventTitle": "저격 복장",
@@ -3594,6 +3603,15 @@
               "eventPacket": {
                 "eventElement": "mea_01",
                 "eventNumber": 2
+              }
+            }
+          },
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
               }
             }
           }
@@ -4023,7 +4041,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "진정한 술꾼은 한 번 마신 술은 병만 봐도 무슨 술인지 알아야 한다네.",
+              "script": "진정한 술꾼은 한 번 마신 술은 병만 봐도 무슨 술인지 알아야 해.",
               "characterPath": "sailor_01",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -4221,7 +4239,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "보르티세랑 플리데마우스들이 폭풍의 곶에 갈때 군자물품들이 창고에서 없어졌다고 해요.",
+              "script": "보르티세랑 플리데마우스들이 폭풍의 곶에 갈때 군자물품들이 창고에서 없어졌다고 해.",
               "characterPath": "resident_01",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -4933,7 +4951,7 @@
             },
             {
               "script": "거인을 잡는 활을 받았다.",
-              "characterPath": "smithy_owner",
+              "characterPath": "nothing_image",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_smithy"
@@ -4983,7 +5001,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "편히 쉬세요.",
+              "script": "메아는 여기서 9~15시에 일한답니다.",
               "characterPath": "inn_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -5577,30 +5595,9 @@
               "backgroundPath": "middle_ridge_whisternhouse"
             },
             {
-              "script": "그렇게 하죠! 먼저 나가보겠습니다.",
+              "script": "그렇게 하죠.",
               "speakerPosition": "right",
               "characterPath": "parath",
-              "faceNumber": "01",
-              "backgroundPath": "middle_ridge_whisternhouse"
-            },
-            {
-              "script": "다들 나갔군.",
-              "speakerPosition": "right",
-              "characterPath": "kein_coworker",
-              "faceNumber": "01",
-              "backgroundPath": "middle_ridge_whisternhouse"
-            },
-            {
-              "script": "케인, 준비는 단단히 해두었겠지?",
-              "speakerPosition": "right",
-              "characterPath": "kein_coworker",
-              "faceNumber": "01",
-              "backgroundPath": "middle_ridge_whisternhouse"
-            },
-            {
-              "script": "……물론이지.",
-              "speakerPosition": "left",
-              "characterPath": "kein",
               "faceNumber": "01",
               "backgroundPath": "middle_ridge_whisternhouse"
             }
@@ -5635,7 +5632,8 @@
     "facePath": "yongsa_young"
   },
   "kein_father": {
-    "name": "케인의 아버지"
+    "name": "케인의 아버지",
+    "facePath":"nothing_image"
   },
   "diarkan": {
     "name": "디아르칸",
@@ -6094,6 +6092,14 @@
       "매일매일이 끔찍합니다.",
       "이곳은 더 이상 성지가 아닙니다. 신조차 버리신 것 같은 저주받은 땅일 뿐이죠…"
     ]
+  },
+  "noel":{
+    "name":"노엘",
+    "facePath":"noel"
+  },
+  "riam":{
+    "name":"리암",
+    "facePath":"riam"
   },
   "noel_and_riam": {
     "name": "노엘과 리암",
@@ -7333,7 +7339,7 @@
         "eventType": "start_battle",
         "eventParameter": {
           "battle": {
-            "targetMonster": "chimera",
+            "targetMonster": "albino_chimera",
             "backgroundPath": "vaical_castle_colosseum"
           }
         },
@@ -7352,7 +7358,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest" : {
-                "questObjectPath" : "chimera",
+                "questObjectPath" : "albino_chimera",
                 "questObjectCount" : 1
               }
             }
@@ -7365,7 +7371,7 @@
         "eventType": "start_battle",
         "eventParameter": {
           "battle": {
-            "targetMonster": "chimera",
+            "targetMonster": "albino_chimera",
             "backgroundPath": "vaical_castle_colosseum"
           }
         },
@@ -7384,7 +7390,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest" : {
-                "questObjectPath" : "chimera",
+                "questObjectPath" : "albino_chimera",
                 "questObjectCount" : 1
               }
             }
@@ -7656,7 +7662,7 @@
           "eventScenes": [
             {
               "script": "다리에는 몬스터가 등장하지 않습니다.",
-              "characterPath": "resident_02",
+              "characterPath": "resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
@@ -7693,21 +7699,21 @@
             },
             {
               "script": "겁에 질린 저는 모든 짐을 내려두고 줄행랑을 쳤습니다. 다행히 목숨은 부지했지만 눈앞이 깜깜하더군요.",
-              "characterPath": "resident_03resident_03resident_03",
+              "characterPath": "resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             },
             {
               "script": "콥웨브에서 받아 온 씨앗이 없으면 내년 농사는 어떻게 지어야 할 지…",
-              "characterPath": "resident_03resident_03resident_03",
+              "characterPath": "resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             },
             {
               "script": "혹시 괜찮다면 콥웨브 부근 초원에서 제 씨앗 주머니들을 찾아 주실 수 있을런지요? 한 3개정도라도 있으면 됩니다.",
-              "characterPath": "resident_03resident_03resident_03",
+              "characterPath": "resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
@@ -7754,7 +7760,7 @@
         "eventScenes": [
           {
             "script": "씨앗 주머니, 한 3개정도라도 있으면 됩니다.",
-            "characterPath": "resident_03resident_03",
+            "characterPath": "resident_03",
             "faceNumber": "01",
             "speakerPosition": "left",
             "backgroundPath": "redrose_castle_house"
@@ -8142,7 +8148,7 @@
     "facePath":"lilis_young"
   },
   "nepel_young":{
-    "name":"네펠",
+    "name":"어린 네펠",
     "facePath":"nepel_young"
   },
   
@@ -9004,7 +9010,7 @@
       "무슨 일이지?"
     ]
   },
-  "mirage_port_resident_01":{
+  "mirage_port_resident":{
     "name": "마을주민",
     "positionIndex": 1,
     "facePath":"resident_03",
@@ -9122,7 +9128,14 @@
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
+            },
+            {
+              "script": "헤르메스 상회와 카이도 상회가 공동소유하고 있지.",
+              "characterPath": "pirate",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "bonichea_dock"
             }
           ]
         },
@@ -9149,14 +9162,14 @@
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             },
             {
               "script": "카이도 상회에 가서 잘 설득해보라고.",
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             }
           ]
         },
@@ -9193,14 +9206,14 @@
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             },
             {
               "script": "그럼 배에 타라고.",
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             }
           ]
         },
@@ -9411,6 +9424,19 @@
             "rewardParameter": {
               "time": {
                 "minute": 10
+              }
+            }
+          },
+          {
+            "rewardType": "set_npc_target_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "location": {
+                "npcPath" : "plecha"
+              },
+              "time" : {
+                "startHour" : 24,
+                "endHour" : 24
               }
             }
           }
@@ -9639,6 +9665,32 @@
       "근무 중 이상 무!"
     ]
   },
+  "snocks": {
+    "name": "경비병 스눅스",
+    "positionIndex": 5,
+    "facePath":"snocks",
+    "events": {
+      "1": {
+        "eventTitle": "대화하기",
+        "eventState": "always_open",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "근무 중 이상 무!!",
+              "characterPath": "snocks",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "kadilla_castle_castlegate"
+            }
+          ]
+        }
+      }
+    },
+    "greetingMessages": [
+      "근무 중 이상 무!"
+    ]
+  },
   "kadilla_castle_inn_owner": {
     "name": "여관주인",
     "positionIndex": 1,
@@ -9688,9 +9740,13 @@
     "name":"수인종",
     "facePath":"nothing_image"
   },
+  "kadilla_guardian":{
+    "name":"카딜라 경비병",
+    "facePath":"nothing_image"
+  },
   "chancellor":{
     "name":"대학총장",
-    "facePath":"chancellor"
+    "facePath":"nothing_image"
   },
   
   "bonichea_inn_owner": {
@@ -9972,7 +10028,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket" : {
-                "eventElement" : "mirage_port_resident_01",
+                "eventElement" : "mirage_port_resident",
                 "eventNumber" : 2
               }
             }
@@ -10051,7 +10107,7 @@
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             }
           ]
         },
@@ -10078,7 +10134,7 @@
               "characterPath": "pirate",
               "faceNumber": "01",
               "speakerPosition": "left",
-              "backgroundPath": "bg_bonichea_dock"
+              "backgroundPath": "bonichea_dock"
             }
           ]
         },
