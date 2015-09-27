@@ -1,0 +1,59 @@
+{
+  "cg_prologue_01": {
+    "filePath": "texture/prologue/cg_prologue_01.png"
+  },
+  "cg_prologue_02": {
+    "filePath": "texture/prologue/cg_prologue_02.png"
+  },
+  "cg_prologue_03": {
+    "filePath": "texture/prologue/cg_prologue_03.png"
+  },	
+  "cg_prologue_04": {
+    "filePath": "texture/prologue/cg_prologue_04.png"
+  },  
+  "bg_justground" : {
+  	"filePath" : "texture/background/bg_justground.png"
+  },
+  "prog_team1": {
+    "filePath": "texture/credit/prog_team1.png"
+  },
+  "plan_team1": {
+    "filePath": "texture/credit/plan_team1.png"
+  },
+  "graphic_team1": {
+    "filePath": "texture/credit/graphic_team1.png"
+  },
+  "blackwood_center": {
+    "filePath": "texture/village/blackwood/blackwood_center.png"
+  },
+  "main_background": {
+    "filePath": "texture/MainMenu_Background.png"
+  },
+  "blackwood_bg_701": {
+    "filePath": "texture/village/blackwood/blackwood_bg_701.png"
+  },
+  "blackwood_bg_702": {
+    "filePath": "texture/village/blackwood/blackwood_bg_702.png"
+  },
+  "black_background": {
+    "filePath": "texture/prologue/black_background.png"
+  },
+  "bg_devilcastle_01": {
+    "filePath": "texture/prologue/bg_devilcastle_01.png"
+  },
+  "bg_blackwood_01": {
+    "filePath": "texture/background/bg_blackwood_01.png"
+  },
+  "bg_blackwood_03": {
+    "filePath": "texture/background/bg_blackwood_03.png"
+  },
+  "bg_cobweb_01":{
+  	"filePath" : "texture/background/bg_cobweb_01.png"
+  },
+  "bg_cobweb_02":{
+  	"filePath" : "texture/background/bg_cobweb_02.png"
+  },
+  "bg_cobweb_12":{
+  	"filePath" : "texture/background/bg_cobweb_12.png"
+  }
+}

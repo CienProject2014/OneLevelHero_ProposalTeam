@@ -1,0 +1,446 @@
+{
+  "blackwood": {
+    "nodeName": "블랙우드",
+    "nodeType": "village",
+    "nodeConnection": {
+      "cobweb": {
+        "arrowName": "1to2",
+        "fieldList": [
+          "bridge",
+          "blackwood_forest",
+          "grassland",
+          "grassland"
+        ]
+      },
+      "middle_ridge": {
+        "arrowName": "1to5",
+        "fieldList": [
+          "blackwood_forest",
+          "blackwood_forest"
+        ]
+      },
+      "blackwood_forest": {
+        "arrowName": "1to17",
+        "fieldList": [
+          "blackwood_forest"
+        ]
+      },
+      "devil_castle": {
+        "arrowName": "1to16",
+        "fieldList": []
+      }
+    }
+  },
+  "cobweb": {
+    "nodeName": "콥웨브",
+    "nodeType": "village",
+    "nodeConnection": {
+      "blackwood": {
+        "arrowName": "2to1",
+        "fieldList": [
+          "grassland",
+          "grassland",
+          "bridge",
+          "blackwood_forest"
+        ]
+      },
+      "redrose_castle": {
+        "arrowName": "2to7",
+        "fieldList": [
+          "bridge"
+        ]
+      },
+      "crystallized_valley_south": {
+        "arrowName": "2to13",
+        "fieldList": [
+          "grassland"
+        ]
+      },
+      "middle_ridge": {
+        "arrowName": "2to5",
+        "fieldList": [
+          "grassland",
+          "grassland",
+          "bridge"
+        ]
+      }
+    }
+  },
+  "oberon": {
+    "nodeName": "오베론",
+    "nodeType": "village",
+    "nodeConnection": {
+      "retreat_stone": {
+        "arrowName": "3to20",
+        "fieldList" : []
+      },
+      "kadilla_castle": {
+        "arrowName": "3to10",
+        "fieldList": [
+          "kadilla_mountain"
+        ]
+      }
+    }
+  },
+  "southcape": {
+    "nodeName": "사우스케이프",
+    "nodeType": "village",
+    "nodeConnection": {
+      "caravanserai": {
+        "arrowName": "4to23",
+        "fieldList": [
+          "grassland",
+          "grassland",
+          "grassland"
+        ]
+      },
+      "mirage_port": {
+        "arrowName": "4to9",
+        "fieldList": [
+          "beach",
+          "beach",
+          "beach"
+        ]
+      }
+    }
+  },
+  "middle_ridge": {
+    "nodeName": "미들 릿지",
+    "nodeType": "village",
+    "nodeConnection": {
+      "blackwood": {
+        "arrowName": "5to1",
+        "fieldList": [
+          "blackwood_forest",
+          "elven_forest"
+        ]
+      },
+      "cobweb": {
+        "arrowName": "5to2",
+        "fieldList": [
+          "bridge",
+          "grassland",
+          "grassland"
+        ]
+      },
+      "vaical_castle": {
+        "arrowName": "5to6",
+        "fieldList": [
+          "blackwood_forest",
+          "blackwood_forest",
+          "blackwood_forest",
+          "blackwood_forest"
+        ]
+      }
+    }
+  },
+  "vaical_castle": {
+    "nodeName": "바이칼 성",
+    "nodeType": "village",
+    "nodeConnection": {
+      "middle_ridge": {
+        "arrowName": "6to5",
+        "fieldList": [
+          "blackwood_forest",
+          "blackwood_forest",
+          "blackwood_forest",
+          "blackwood_forest"
+        ]
+      },
+      "golden_lake": {
+        "arrowName": "6to18",
+        "fieldList": []
+      }
+    }
+  },
+  "redrose_castle": {
+    "nodeName": "레드로즈 성",
+    "nodeType": "village",
+    "nodeConnection": {
+      "cobweb": {
+        "arrowName": "7to2",
+        "fieldList": [
+          "bridge"
+        ]
+      },
+      "caravanserai": {
+        "arrowName": "7to22",
+        "fieldList": [
+          "bridge"
+        ]
+      }
+    }
+  },
+  "winterfall": {
+    "nodeName": "윈터폴",
+    "nodeType": "village",
+    "nodeConnection": {
+      "crystallized_valley_north": {
+        "arrowName": "8to13",
+        "fieldList": []
+      }
+    }
+  },
+  "mirage_port": {
+    "nodeName": "미라지 포트",
+    "nodeType": "village",
+    "nodeConnection": {
+      "southcape": {
+        "arrowName": "9to4",
+        "fieldList": [
+          "beach",
+          "beach",
+          "beach"
+        ]
+      },
+      "statue_of_golden_beetle": {
+        "arrowName": "9to24",
+        "fieldList": [
+          "elven_forest",
+          "elven_forest"
+        ]
+      }
+    }
+  },
+  "kadilla_castle": {
+    "nodeName": "카딜라 성",
+    "nodeType": "village",
+    "nodeConnection": {
+      "oberon": {
+        "arrowName": "10to3",
+        "fieldList": [
+          "kadilla_mountain",
+          "kadilla_mountain"
+        ]
+      },
+      "dogbenefit_camp": {
+        "arrowName": "10to21",
+        "fieldList": [
+          "kadilla_mountain"
+        ]
+      }
+    }
+  },
+  "bonichea": {
+    "nodeName": "보니체아",
+    "nodeType": "village",
+    "nodeConnection": {}
+  },
+  "mountain_titania": {
+    "nodeName": "티타니아 산",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "retreat_stone": {
+        "arrowName": "12to20",
+        "fieldList": []
+      }
+    }
+  },
+  "crystallized_valley_south": {
+    "nodeName": "수정 협곡 남쪽 입구",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "cobweb": {
+        "arrowName": "13to2",
+        "fieldList": [
+          "grassland"
+        ]
+      }
+    }
+  },
+  "crystallized_valley_north": {
+    "nodeName": "수정 협곡 북쪽 입구",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "winterfall": {
+        "arrowName": "13to8",
+        "fieldList": []
+      }
+    }
+  },
+  "elven_forest_east": {
+    "nodeName": "엘프의 숲 동쪽 입구",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "statue_of_golden_beetle": {
+        "arrowName": "14to24",
+        "fieldList": [
+          "elven_forest"
+        ]
+      }
+    }
+  },
+  "elven_forest_west": {
+    "nodeName": "엘프의 숲 서쪽 입구",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "caravanserai": {
+        "arrowName": "14to22",
+        "fieldList": []
+      }
+    }
+  },
+  "temple_of_moerae": {
+    "nodeName": "모에라에의 신전",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "statue_of_golden_beetle": {
+        "arrowName": "15to24",
+        "fieldList": []
+      }
+    }
+  },
+  "devil_castle": {
+    "nodeName": "마왕성",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "blackwood": {
+        "arrowName": "16to1",
+        "fieldList": []
+      }
+    }
+  },
+  "blackwood_forest": {
+    "nodeName": "블랙우드 숲",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "blackwood": {
+        "arrowName": "17to1",
+        "fieldList": [
+          "blackwood_forest"
+        ]
+      }
+    }
+  },
+  "golden_lake": {
+    "nodeName": "금빛 호수",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {
+      "vaical_castle": {
+        "arrowName": "18to6",
+        "fieldList": []
+      }
+    }
+  },
+  "cape_of_tempest": {
+    "nodeName": "폭풍의 곶",
+    "nodeType": "dungeon_entrance",
+    "nodeConnection": {}
+  },
+  "retreat_stone": {
+    "nodeName": "회군의 바위",
+    "nodeType": "fork",
+    "nodeConnection": {
+      "oberon": {
+        "arrowName": "20to3",
+        "fieldList": []
+      },
+      "mountain_titania": {
+        "arrowName": "20to12",
+        "fieldList": []
+      },
+      "dogbenefit_camp": {
+        "arrowName": "20to21",
+        "fieldList": []
+      }
+    }
+  },
+  "dogbenefit_camp": {
+    "nodeName": "도그베네핏 야영지",
+    "nodeType": "fork",
+    "nodeConnection": {
+      "retreat_stone": {
+        "arrowName": "21to20",
+        "fieldList": []
+      },
+      "kadilla_castle": {
+        "arrowName": "21to10",
+        "fieldList": [
+          "kadilla_mountain"
+        ]
+      },
+      "caravanserai": {
+        "arrowName": "21to23",
+        "fieldList": [
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "elven_forest"
+        ]
+      }
+    }
+  },
+  "cemetery": {
+    "nodeName": "공동묘지",
+    "nodeType": "fork",
+    "nodeConnection": {
+      "caravanserai": {
+        "arrowName": "22to23",
+        "fieldList": []
+      },
+      "elven_forest_west": {
+        "arrowName": "22to14",
+        "fieldList": []
+      },
+      "redrose_castle": {
+        "arrowName": "22to7",
+        "fieldList": [
+          "bridge"
+        ]
+      }
+    }
+  },
+  "caravanserai": {
+    "nodeName": "여행자의 쉼터",
+    "nodeType": "fork",
+    "nodeConnection": {
+      "dogbenefit_camp": {
+        "arrowName": "23to21",
+        "fieldList": [
+          "elven_forest",
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "kadilla_mountain",
+          "kadilla_mountain"
+        ]
+      },
+      "cemetery": {
+        "arrowName": "23to22",
+        "fieldList": []
+      },
+      "southcape": {
+        "arrowName": "23to4",
+        "fieldList": [
+          "grassland",
+          "grassland",
+          "grassland"
+        ]
+      }
+    }
+  },
+  "statue_of_golden_beetle": {
+    "nodeName": "황금 풍뎅이 석상",
+    "nodeType": "fork",
+    "nodeConnection": {
+      "temple_of_moerae": {
+        "arrowName": "24to15",
+        "fieldList": []
+      },
+      "mirage_port": {
+        "arrowName": "24to9",
+        "fieldList": [
+          "elven_forest",
+          "elven_forest"
+        ]
+      },
+      "elven_forest_east": {
+        "arrowName": "24to14",
+        "fieldList": [
+          "elven_forest"
+        ]
+      }
+    }
+  }
+}

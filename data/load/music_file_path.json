@@ -1,0 +1,26 @@
+{
+	"opening":{
+		"filePath" : "music/opening.mp3"
+	},
+	"bgm_title" : {
+		"filePath" : "music/bgm_title.mp3"
+	},
+	"bgm_cobweb" : {
+		"filePath" : "music/bgm_cobweb.mp3"
+	},
+	"fights":{
+		"filePath" : "music/fights.mp3"
+	},
+	"fight_or_flight":{
+		"filePath" : "music/fight_or_flight.mp3"
+	},
+	"mihok_forest":{
+		"filePath" : "music/mihok_forest.mp3"
+	},
+	"seven_changer" : {
+		"filePath" : "music/seven_changer.mp3"
+	},
+	"tamsu03":{
+		"filePath" : "music/tamsu03.mp3"
+	}
+}
