@@ -47,7 +47,9 @@
         "nextSectionNumber": "103",
         "eventType": "battle_command",
         "eventParameter": {
-          "battleCommand": "normal_attack"
+          "battle": {
+            "battleCommand": "normal_attack"
+          }
         }
       }
     ]
@@ -68,7 +70,9 @@
         "nextSectionNumber": "104",
         "eventType": "battle_command",
         "eventParameter": {
-          "battleCommand": "skill_attack"
+          "battle": {
+            "battleCommand": "skill_attack"
+          }
         }
       }
     ]
@@ -89,7 +93,9 @@
         "nextSectionNumber": "105",
         "eventType": "battle_command",
         "eventParameter": {
-          "battleCommand": "skill_attack"
+          "battle": {
+            "battleCommand": "skill_attack"
+          }
         }
       }
     ]
@@ -110,7 +116,9 @@
         "nextSectionNumber": "106",
         "eventType": "battle_command",
         "eventParameter": {
-          "battleCommand": "use_item"
+          "battle": {
+            "battleCommand": "use_item"
+          }
         }
       }
     ]
