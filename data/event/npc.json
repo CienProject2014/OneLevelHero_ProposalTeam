@@ -806,6 +806,49 @@
             }
           }
         ]
+      },
+      "2": {
+        "eventTitle": "대화하기",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "또 왔네? 저번에 깨뜨린 항아리는 말이야!",
+              "characterPath": "blackwood_resident",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "도망가자~",
+              "characterPath": "yongsa",
+              "faceNumber": "11",
+              "speakerPosition": "right",
+              "backgroundPath": "blackwood_house"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          },
+          {
+            "rewardType": "move_node",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "location": {
+                "nodePath": "blackwood"
+              }
+            }
+          }
+        ]
       }
     },
     "greetingMessages": [
@@ -2688,6 +2731,33 @@
               }
             }
           },
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      },
+      "5": {
+        "eventTitle": "대화하기",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "당장 나가주세요!",
+              "characterPath": "mia_and_ai",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "oberon_house"
+            }
+          ]
+        },
+        "rewards": [
           {
             "rewardType": "pass_time",
             "rewardState": "not_opened",
@@ -7644,6 +7714,33 @@
             }
           }
         ]
+      },
+      "5": {
+        "eventTitle": "대화하기",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "당장 여기서 나가시죠!",
+              "characterPath": "nia",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "redrose_castle_house"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
       }
     },
     "greetingMessages": [
@@ -7661,7 +7758,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "다리에는 몬스터가 등장하지 않습니다.",
+              "script": "다리에는 몬스터가 등장하지 않는다네.",
               "characterPath": "noctern",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -7823,6 +7920,22 @@
             }
           }
         ]
+      },
+      "5": {
+        "eventTitle": "대화하기",
+        "eventState": "always_open",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "당장 나가게!",
+              "characterPath": "noctern",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "redrose_castle_house"
+            }
+          ]
+        }
       }
     },
     "greetingMessages": [
