@@ -4426,7 +4426,7 @@
       "defense": 50,
       "magicAttack": 75,
       "magicDefense": 48,
-      "speed": 100,
+      "speed": 0,
       "experience": 0,
       "maxExperience": 20000,
       "fireResistance": 0,
