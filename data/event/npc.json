@@ -2536,6 +2536,14 @@
     "facePath": "nepel"
   },
   
+  "mia":{
+    "name":"미아",
+    "facePath":"mia"
+  },
+  "ai":{
+    "name":"아이",
+    "facePath":"ai"
+  },
   "mia_and_ai": {
     "name": "미아와 아이",
     "positionIndex": 1,
@@ -5806,7 +5814,7 @@
           "eventScenes": [
             {
               "script": "저는 에버그네일님의 하인 2호입니다.",
-              "characterPath": "servant_01",
+              "characterPath": "servant_02",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "middle_ridge_evergnailhouse"
@@ -9780,7 +9788,7 @@
   },
   "snocks": {
     "name": "경비병 스눅스",
-    "positionIndex": 5,
+    "positionIndex": 3,
     "facePath":"snocks",
     "events": {
       "1": {
