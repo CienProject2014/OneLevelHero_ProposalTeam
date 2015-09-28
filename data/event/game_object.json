@@ -589,7 +589,7 @@
       },
       "2": {
         "eventTitle": "부순다",
-        "eventState": "alway_open",
+        "eventState": "always_open",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
@@ -737,7 +737,7 @@
       },
       "2": {
         "eventTitle": "엎는다",
-        "eventState": "alway_open",
+        "eventState": "always_open",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
@@ -868,7 +868,7 @@
       },
       "2": {
         "eventTitle": "부순다",
-        "eventState": "alway_open",
+        "eventState": "always_open",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
