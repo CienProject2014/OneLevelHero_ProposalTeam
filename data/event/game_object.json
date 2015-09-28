@@ -602,14 +602,14 @@
             },
             {
               "script": "갑자기 남의 집 물건을 부수다니...",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "당장 나가주세요!",
-              "characterPath": "mia_and_ai",
+              "characterPath": "ai",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -880,14 +880,14 @@
               "backgroundPath": "redrose_castle_house"
             },
             {
-              "script": "자네 지금 뭐 하는 건가! 완전 날강도가 따로 없구먼!",
+              "script": "자네 지금 뭐 하는 건가! 완전 날강도가 따로 없네!",
               "characterPath": "nia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             },
             {
-              "script": "당장 나가게!",
+              "script": "당장 나가요!",
               "characterPath": "nia",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -1081,7 +1081,7 @@
       },
       "2": {
         "eventTitle": "두 번째 서랍",
-        "eventState": "opened",
+        "eventState": "always_open",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
