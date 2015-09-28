@@ -6737,6 +6737,33 @@
             }
           }
         ]
+      },
+      "5": {
+        "eventTitle": "대화하기",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "당장 나가시라니깐요!",
+              "characterPath": "middle_ridge_inn_owner",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_inn"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
       }
     },
     "greetingMessages": [
