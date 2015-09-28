@@ -15,6 +15,7 @@
         "subNodeName": "촌장의 집",
         "buildingType": "house",
         "subNodePath": "blackwood_headhouse",
+        "backgroundPath":"blackwood_house",
         "outerPath": "blackwood_03",
         "targetTime": {
           "startHour": 6,
