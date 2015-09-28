@@ -779,7 +779,7 @@
   "blackwood_resident": {
     "name": "마을사람",
     "elementPath": "blackwood_resident",
-    "facePath": "resident_03",
+    "facePath": "resident_07",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -859,7 +859,7 @@
   "blackwood_guest": {
     "name": "수상한 투숙객",
     "positionIndex": 2,
-    "facePath": "resident_04",
+    "facePath": "resident_03",
     "elementPath": "blackwood_guest",
     "events": {
       "1": {
@@ -2540,10 +2540,19 @@
     "name": "네펠",
     "elementPath": "nepel"
   },
+  "mia":{
+    "name":"미아",
+    "elementPath":"mia"
+  },
+  "ai":{
+    "name":"아이",
+    "elementPath":"ai"
+  },
   "mia_and_ai": {
     "name": "미아와 아이",
     "positionIndex": 1,
     "elementPath": "mia_and_ai",
+    "facePath":"mia",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -2553,7 +2562,7 @@
           "eventScenes": [
             {
               "script": "저희는 매우 친한 자매에요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -2580,42 +2589,42 @@
           "eventScenes": [
             {
               "script": "안녕하세요. 제 이름은 미아. 저쪽은 아이라고 해요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "다름이 아니라 언제부턴가 저희 자매가 자꾸 이유없는 악몽을 꾸고 있답니다. ",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "잠에 드는 것 마저 겁이 나서 불면증으로 고생한 지 오래에요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "그리고 찾아낸 원인은 티타니아 산의 몬스터들이었어요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "ai",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "최근 갑자기 개체 수가 늘어난 몬스터들의 마력이 저희에게까지 영향을 미치는 거라 생각해요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "ai",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "죄송하지만, 저희를 괴롭히는 티타니아 산의 타락한 정령들을 없애 주실 수 있을까요? 10마리정도 잡으면 될 거 같아요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -2662,7 +2671,7 @@
           "eventScenes": [
             {
               "script": "타락한 정령 10마리를 해치워 주신 후 저희에게 돌아와 주세요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -2689,28 +2698,28 @@
           "eventScenes": [
             {
               "script": "주변이 조용해진 게 느껴져요. 역시 그들의 탓이었나 봐요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "ai",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "이젠 좋은 꿈을 꿀 수 있을 것 같아요. 감사합니다. 용사님 덕택이에요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "ai",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "여기 작지만 저희의 성의입니다. 부디 받아주세요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             },
             {
               "script": "사람 이름을 메모하는 데 쓰던 책인가봐요.",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -2754,7 +2763,7 @@
           "eventScenes": [
             {
               "script": "당장 나가주세요!",
-              "characterPath": "mia_and_ai",
+              "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
@@ -4472,7 +4481,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "소용돌이가 남쪽에 있어서 미라지포트의 선착장은 문제없이 이용할 수 있다네",
+              "script": "소용돌이가 남쪽에 있어서 미라지포트의 선착장은 문제없이 이용할 수 있어",
               "characterPath": "southcape_resident_03",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -4550,7 +4559,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "재료만 갖춰진다면 대장간에 가서 장비를 만들 수도 있지",
+              "script": "재료만 갖춰진다면 대장간에 가서 장비를 만들 수도 있어요",
               "characterPath": "southcape_resident_04",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -4588,7 +4597,7 @@
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "southcape_house",
-              "script": "난 그것에 대해 알지만 그것에 대해 모른다오."
+              "script": "난 그것에 대해 알지만 그것에 대해 몰라요."
             },
             {
               "characterPath": "southcape_resident_04",
@@ -4628,7 +4637,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "그거 아세요? 전설의 무기인 폭풍의 눈은 폭풍의 곶과 전혀 무관해요!",
+              "script": "그거 아세요? 전설의 무기인 폭풍의 눈은 폭풍의 곶과 전혀 무관해!",
               "characterPath": "southcape_resident_05",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -6189,6 +6198,7 @@
     "name": "노엘과 리암",
     "positionIndex": 3,
     "elementPath": "noel_and_riam",
+    "facePath":"noel",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -7234,14 +7244,6 @@
       "……바이칼에는 무슨 용무인가?"
     ]
   },
-  "mia": {
-    "name": "미아",
-    "facePath": "mia"
-  },
-  "ai": {
-    "name": "아이",
-    "facePath": "ai"
-  },
   "aren": {
     "name": "아렌",
     "facePath": "fist",
@@ -7542,6 +7544,7 @@
   "nia": {
     "name": "니아",
     "elementPath": "nia",
+    "facePath":"resident_04",
     "events": {
       "1": {
         "eventTitle": "대화하기",
