@@ -24,7 +24,109 @@
         ]
       }
     }
+  },  "portal_25_01":{
+    "name": "수정의 제단 포탈",
+    "objectType" : "pressed",
+    "facePath" : "portal",
+    "elementPath" : "portal_25_01",
+    "events": {
+      "1": {
+        "eventTitle": "들어간다",
+        "eventState": "always_open",
+        "eventType": "move_sub_node",
+        "eventParameter": {
+          "location": {
+            "nodePath":"winterfall",
+            "subNodePath": "winterfall_dome"
+          }
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "greetingMessages": [
+      "수정의 제단으로 통하는 포탈이다."
+    ]
   },
+  "portal_25_02":{
+    "name": "네펠의 포탈",
+    "objectType" : "pressed",
+    "facePath" : "portal",
+    "elementPath" : "portal_25_02",
+    "events": {
+      "1": {
+        "eventTitle": "들어간다",
+        "eventState": "always_open",
+        "eventType": "move_dungeon_room",
+        "eventParameter": {
+          "location": {
+            "subNodePath": "crystallized_valley",
+            "floorPath" : "crystallized_valley",
+            "roomLabel" : "room_5_5"
+          }
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      },
+     "2": {
+        "eventTitle": "들어간다",
+        "eventState": "not_opened",
+        "eventType": "move_dungeon_room",
+        "eventParameter": {
+          "location": {
+            "subNodePath": "crystallized_valley",
+            "floorPath" : "crystallized_valley",
+            "roomLabel" : "room_5_5"
+          }
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          },
+          {
+            "rewardType": "set_game_object_target_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "location": {
+                "npcPath" : "portal_25_02"
+              },
+              "time" : {
+                "startHour" : 24,
+                "endHour" : 24
+              }
+            }
+          }
+        ]
+      }
+    },
+    "greetingMessages": [
+      "네펠이 만들어 둔 포탈이다."
+    ]
+  },  
   "rest": {
     "name": "회복하기",
     "objectType" : "function",
@@ -1966,30 +2068,30 @@
             }
           },
           {
-            "rewardType": "always_open_object_target_event",
+            "rewardType": "always_open_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 2
               }
             }
           },
           {
-            "rewardType": "close_object_target_event",
+            "rewardType": "close_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 3
               }
             }
           },
           {
-            "rewardType": "open_object_target_event",
+            "rewardType": "open_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 4
               }
@@ -2349,110 +2451,6 @@
     },
     "greetingMessages": [
       "약초가 놓여 있다."
-    ]
-  },
-  
-  "portal_25_01":{
-    "name": "수정의 제단 포탈",
-    "objectType" : "pressed",
-    "facePath" : "portal",
-    "elementPath" : "portal_25_01",
-    "events": {
-      "1": {
-        "eventTitle": "들어간다",
-        "eventState": "always_open",
-        "eventType": "move_sub_node",
-        "eventParameter": {
-          "location": {
-            "nodePath":"winterfall",
-            "subNodePath": "winterfall_dome"
-          }
-        },
-        "rewards": [
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          }
-        ]
-      }
-    },
-    "greetingMessages": [
-      "수정의 제단으로 통하는 포탈이다."
-    ]
-  },
-  "portal_25_02":{
-    "name": "네펠의 포탈",
-    "objectType" : "pressed",
-    "facePath" : "portal",
-    "elementPath" : "portal_25_02",
-    "events": {
-      "1": {
-        "eventTitle": "들어간다",
-        "eventState": "always_open",
-        "eventType": "move_dungeon_room",
-        "eventParameter": {
-          "location": {
-            "subNodePath": "crystallized_valley",
-            "floorPath" : "crystallized_valley",
-            "roomLabel" : "room_5_5"
-          }
-        },
-        "rewards": [
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          }
-        ]
-      },
-     "2": {
-        "eventTitle": "들어간다",
-        "eventState": "not_opened",
-        "eventType": "move_dungeon_room",
-        "eventParameter": {
-          "location": {
-            "subNodePath": "crystallized_valley",
-            "floorPath" : "crystallized_valley",
-            "roomLabel" : "room_5_5"
-          }
-        },
-        "rewards": [
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          },
-          {
-            "rewardType": "set_game_object_target_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "location": {
-                "npcPath" : "portal_25_02"
-              },
-              "time" : {
-                "startHour" : 24,
-                "endHour" : 24
-              }
-            }
-          }
-        ]
-      }
-    },
-    "greetingMessages": [
-      "네펠이 만들어 둔 포탈이다."
     ]
   }
 }
