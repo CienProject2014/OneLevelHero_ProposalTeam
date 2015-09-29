@@ -4935,6 +4935,29 @@
       "74": {
         "eventState": "not_opened",
         "eventType": "game_over"
+      },
+      "100": {
+        "eventState": "not_opened",
+        "eventType": "close_game_object_event",
+        "eventParameter": {
+          "eventPacket" : {
+            "eventElement" : "portal_25_02",
+            "eventNumber" : 1
+          }
+        }
+      },
+      "101": {
+        "eventState": "not_opened",
+        "eventType": "set_game_object_target_time",
+        "eventParameter": {
+          "location": {
+            "npcPath" : "winterfall_portal"
+          },
+          "time" : {
+            "startHour" : 24,
+            "endHour" : 24
+          }
+        }
       }
     }
   },
