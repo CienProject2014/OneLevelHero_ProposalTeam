@@ -2147,7 +2147,7 @@
     ],
     "nextSections": [
       {
-        "nextSectionNumber": "314",
+        "nextSectionNumber": "315",
         "eventType": "end_battle",
         "eventParameter": {
           "battle": {
