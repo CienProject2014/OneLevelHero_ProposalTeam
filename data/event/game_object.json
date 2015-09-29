@@ -25,40 +25,6 @@
       }
     }
   },
-  "winterfall_portal":{ 
-     "name": "서큐버스 동굴 포탈", 
-     "objectType" : "pressed", 
-     "facePath" : "portal", 
-     "elementPath" : "winterfall_portal", 
-     "events": { 
-       "1": { 
-         "eventTitle": "들어간다", 
-         "eventState": "always_open", 
-         "eventType": "move_dungeon_room", 
-         "eventParameter": { 
-           "location": { 
-             "subNodePath": "cave_of_succubus", 
-             "floorPath" : "cave_of_succubus", 
-             "roomLabel" : "room_1_1" 
-           } 
-         }, 
-         "rewards": [ 
-           { 
-             "rewardType": "pass_time", 
-             "rewardState": "not_opened", 
-             "rewardParameter": { 
-               "time": { 
-                 "minute": 5 
-               } 
-             } 
-           } 
-         ] 
-       } 
-     }, 
-     "greetingMessages": [ 
-       "서큐버스 동굴로 통하는 포탈이다." 
-     ] 
-   }, 
 
   "portal_25_01":{
     "name": "수정의 제단 포탈",
