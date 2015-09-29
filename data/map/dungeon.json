@@ -1746,7 +1746,7 @@
             "roomPosX": "1",
             "roomPosY": "1",
             "roomType": "object",
-            "link" : "portal_25_02",
+            "link" : "portal_25_01",
             "forwardAngle": "right",
             "forwardConnections": [
               {
