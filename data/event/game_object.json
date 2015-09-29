@@ -1966,30 +1966,30 @@
             }
           },
           {
-            "rewardType": "always_open_object_target_event",
+            "rewardType": "always_open_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 2
               }
             }
           },
           {
-            "rewardType": "close_object_target_event",
+            "rewardType": "close_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 3
               }
             }
           },
           {
-            "rewardType": "open_object_target_event",
+            "rewardType": "open_game_object_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "rewardPacket" : {
+              "eventPacket" : {
                 "eventElement" : "winterfall_box_02",
                 "eventNumber" : 4
               }
