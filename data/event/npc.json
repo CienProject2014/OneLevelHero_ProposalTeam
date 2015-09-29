@@ -469,6 +469,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "몸에 좋은 보약",
                 "questObjectPath": "god_of_drug",
                 "questObjectCount": 1
               }
@@ -674,6 +675,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "몸에 좋은 보약2",
                 "questObjectPath": "heart",
                 "questObjectCount": 1
               }
@@ -1729,6 +1731,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "사냥개 이빨 묶음",
                 "questObjectPath": "tooth_of_dog",
                 "questObjectCount": 5
               }
@@ -1882,6 +1885,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "와이번 꼬리 요리",
                 "questObjectPath": "big_tail",
                 "questObjectCount": 5
               }
@@ -2065,6 +2069,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "예티 가죽털 경갑",
                 "questObjectPath": "wool_of_yetie",
                 "questObjectCount": 5
               }
@@ -2218,6 +2223,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "빙룡의 이빨",
                 "questObjectPath": "core_of_anhuntas",
                 "questObjectCount": 1
               }
@@ -2371,6 +2377,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "안킬라스 쉴드",
                 "questObjectPath": "core_of_anhuntas",
                 "questObjectCount": 1
               }
@@ -2637,6 +2644,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "끝나지 않는 악몽",
                 "questObjectPath": "soul_deprave",
                 "questObjectCount": 10
               }
@@ -2875,6 +2883,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "소원의 끝",
                 "questObjectPath": "prickly_pear",
                 "questObjectCount": 1
               }
@@ -4940,6 +4949,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "거인을 잡는 활",
                 "questObjectPath": "stick_of_cyclops",
                 "questObjectCount": 2
               }
@@ -6069,6 +6079,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "농사를 도와주세요",
                 "questObjectPath": "chimera",
                 "questObjectCount": 5
               }
@@ -6620,6 +6631,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "배게 부족",
                 "questObjectPath": "bourre_of_unicorn",
                 "questObjectCount": 1
               }
@@ -6829,6 +6841,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "연금술",
                 "questObjectPath": "core_of_spirit",
                 "questObjectCount": 5
               }
@@ -7053,6 +7066,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "마을의 저주",
                 "questObjectPath": "albino_chimera",
                 "questObjectCount": 1
               }
@@ -7155,6 +7169,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "마을의 저주2",
                 "questObjectPath": "auroral_unicorn",
                 "questObjectCount": 1
               }
@@ -7384,6 +7399,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "키메라1",
                 "questObjectPath": "chimera",
                 "questObjectCount": 1
               }
@@ -7416,6 +7432,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "키메라2",
                 "questObjectPath": "chimera",
                 "questObjectCount": 1
               }
@@ -7448,6 +7465,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "키메라3",
                 "questObjectPath": "chimera",
                 "questObjectCount": 1
               }
@@ -7480,6 +7498,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "키메라4",
                 "questObjectPath": "albino_chimera",
                 "questObjectCount": 1
               }
@@ -7512,6 +7531,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "키메라5",
                 "questObjectPath": "albino_chimera",
                 "questObjectCount": 1
               }
@@ -7571,7 +7591,7 @@
   "nia": {
     "name": "니아",
     "elementPath": "nia",
-    "facePath":"resident_04",
+    "facePath":"nia",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -7656,6 +7676,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "병악한 레모",
                 "questObjectPath": "peony",
                 "questObjectCount": 3
               }
@@ -7876,6 +7897,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "잃어버린 것",
                 "questObjectPath": "seed_pocket",
                 "questObjectCount": 3
               }
@@ -8159,6 +8181,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "item": {
+                "questName" : "응급 처치",
                 "itemPath": "huttuynia_cordata",
                 "itemCount": 3
               }
@@ -8399,6 +8422,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "그녀를 위한 선물",
                 "questObjectPath": "petal_of_rafflesia",
                 "questObjectCount": 5
               }
@@ -9994,6 +10018,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
+                "questName" : "여관의 새단장",
                 "questObjectPath": "nacre",
                 "questObjectCount": 3
               }
