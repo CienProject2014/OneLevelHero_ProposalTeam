@@ -27,7 +27,7 @@
     "RMenuTablePadRight": 15,
     "RButtonWidth": 138,
     "RButtonHeight": 138,
-    "RButtonSpace": 15,
+    "RButtonSpace": 10,
     "gridPadTop": 228,
     "gridTableWidthSmall": 640,
     "gridTableHeightSmall": 640,
@@ -41,7 +41,7 @@
     "TurnTableHeight": 137
   },
   "CharacterUiStage": {
-    "heroTablePadLeft": 13,
+    "heroTablePadLeft": 50,
     "heroTablePadBottom": 58,
     "heroImageWidth": 158,
     "heroImageHeight": 158,
@@ -52,18 +52,19 @@
     "buffTableHeight": 30
   },
   "MonsterStage": {
-    "monsterPadTop": 212,
+    "monsterPadTop": 150,
     "monsterTableWidth": 640,
     "monsterTableHeight": 640,
     "MonsterBarSpace": 20,
     "hpTableWidth": 666,
-    "hpTablePadBottom": 128
+    "hpTablePadBottom": 170
   },
   "GameUiStage": {
     "padLeft": 15,
     "padTop": 15,
     "buttonPadRight": 14,
-    "TButtonWidthSmall": 145,
+    "TButtonWidthSmall": 1
+    45,
     "TButtonHeightSmall": 131,
     "TButtonWidthLarge": 620,
     "TButtonHeightLarge": 131
