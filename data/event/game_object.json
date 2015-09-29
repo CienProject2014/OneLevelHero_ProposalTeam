@@ -55,6 +55,7 @@
   "blackwood_jar": {
     "name": "항아리",
     "objectType" : "pressed",
+    "elementPath" : "blackwood_jar",
     "facePath" : "jar",
     "events": {
       "1": {
@@ -549,6 +550,7 @@
     "name": "모루",
     "objectType" : "pressed",
     "facePath" : "anvil",
+    "elementPath" : "cobweb_anvil",
     "events": {
       "1": {
         "eventTitle": "만진다",
@@ -594,6 +596,7 @@
     "name": "상자",
     "objectType" : "pressed",
     "facePath" : "box",
+    "elementPath" : "oberon_box_01",
     "events": {
       "1": {
         "eventTitle": "연다",
@@ -779,10 +782,11 @@
     ]
   },
   
-  "redrose_caslte_snack":{
+  "redrose_castle_snack":{
     "name": "갓 구운 과자",
     "objectType" : "pressed",
     "facePath" : "snack",
+    "elementPath" : "redrose_castle_snack",
     "events": {
       "1": {
         "eventTitle": "먹는다",
@@ -818,7 +822,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "location": {
-                  "gameObjectPath" : "redrose_caslte_snack"
+                  "gameObjectPath" : "redrose_castle_snack"
               },
               "time" : {
                 "startHour" : 24,
@@ -883,7 +887,7 @@
             "rewardParameter": {
               "location": {
                 "nodePath": "redrose_castle",
-                "subNodePath":"redrose_caslte_house_01"
+                "subNodePath":"redrose_castle_house_01"
               }
             }
           },
@@ -922,7 +926,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "location": {
-                  "gameObjectPath" : "redrose_caslte_snack"
+                  "gameObjectPath" : "redrose_castle_snack"
               },
               "time" : {
                 "startHour" : 24,
@@ -937,10 +941,11 @@
       "갓 구워서 맛있어 보이는 과자다."
     ]
   },
-  "redrose_caslte_box_01":{
+  "redrose_castle_box_01":{
     "name": "상자",
     "objectType" : "pressed",
     "facePath" : "box",
+    "elementPath" : "redrose_castle_box_01",
     "events": {
       "1": {
         "eventTitle": "연다",
@@ -1014,7 +1019,7 @@
             "rewardParameter": {
               "location": {
                 "nodePath": "redrose_castle",
-                "subNodePath":"redrose_caslte_house_02"
+                "subNodePath":"redrose_castle_house_02"
               }
             }
           },
@@ -1083,7 +1088,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "location": {
-                  "gameObjectPath" : "redrose_caslte_box_01"
+                  "gameObjectPath" : "redrose_castle_box_01"
               },
               "time" : {
                 "startHour" : 24,
@@ -1098,10 +1103,11 @@
       "상자다."
     ]
   },
-  "redrose_caslte_box_02":{
+  "redrose_castle_box_02":{
     "name": "상자",
     "objectType" : "pressed",
     "facePath" : "box",
+    "elementPath" : "redrose_castle_box_02",
     "events": {
       "1": {
         "eventTitle": "연다",
@@ -1143,7 +1149,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket" : {
-                "eventElement" : "redrose_caslte_box_02",
+                "eventElement" : "redrose_castle_box_02",
                 "eventNumber" : 3
               }
             }
@@ -1153,7 +1159,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket" : {
-                "eventElement" : "redrose_caslte_box_02",
+                "eventElement" : "redrose_castle_box_02",
                 "eventNumber" : 4
               }
             }
@@ -1163,7 +1169,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket" : {
-                "eventElement" : "redrose_caslte_box_02",
+                "eventElement" : "redrose_castle_box_02",
                 "eventNumber" : 2
               }
             }
@@ -1247,7 +1253,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "location": {
-                  "gameObjectPath" : "redrose_caslte_box_02"
+                  "gameObjectPath" : "redrose_castle_box_02"
               },
               "time" : {
                 "startHour" : 24,
@@ -1297,7 +1303,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "location": {
-                  "gameObjectPath" : "redrose_caslte_box_02"
+                  "gameObjectPath" : "redrose_castle_box_02"
               },
               "time" : {
                 "startHour" : 24,
@@ -1316,7 +1322,8 @@
   "middle_ridge_drawer": {
     "name": "서랍장",
     "objectType" : "pressed",
-    "facePath": "middle_ridge_drawer",
+    "facePath" : "drawer",
+    "elementPath": "middle_ridge_drawer",
     "events": {
       "1": {
         "eventTitle": "첫 번째 서랍",
@@ -1576,6 +1583,7 @@
     "name": "꽃병",
     "objectType" : "pressed",
     "facePath" : "vase",
+    "elementPath" : "middle_ridge_vase",
     "events": {
       "1": {
         "eventTitle": "꽃을 흔든다.",
@@ -1755,6 +1763,7 @@
     "name": "서큐버스 동굴 포탈",
     "objectType" : "pressed",
     "facePath" : "portal",
+    "elementPath" : "winterfall_portal",
     "events": {
       "1": {
         "eventTitle": "들어간다",
@@ -1788,6 +1797,7 @@
     "name": "상자",
     "objectType" : "pressed",
     "facePath" : "box",
+    "elementPath" : "winterfall_box_01",
     "events": {
       "1": {
         "eventTitle": "연다",
@@ -1918,6 +1928,7 @@
     "name": "상자",
     "objectType" : "pressed",
     "facePath" : "box",
+    "elementPath" : "winterfall_box_02",
     "events": {
       "1": {
         "eventTitle": "연다",
@@ -2102,6 +2113,7 @@
     "name": "약초 더미",
     "objectType" : "pressed",
     "facePath" : "glue_pile",
+    "elementPath" : "winterfall_glue_pile_01",
     "events": {
       "1": {
         "eventTitle": "줍는다",
@@ -2222,6 +2234,7 @@
     "name": "약초 더미",
     "objectType" : "pressed",
     "facePath" : "glue_pile",
+    "elementPath" : "winterfall_glue_pile_02",
     "events": {
       "1": {
         "eventTitle": "줍는다",
