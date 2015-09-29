@@ -1670,14 +1670,14 @@
           "eventScenes": [
             {
               "script": "와이번의 꼬리는 매우 두꺼워서 대형 꼬리라고 말하면 다들 와이번 꼬리라고 알아듣는대요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "그만큼 와이번 꼬리 요리가 유행이라는 소리겠죠.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1704,21 +1704,21 @@
           "eventScenes": [
             {
               "script": "제가 취미로 목걸이를 만드는 일을 하거든요?",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "그런데 어느 부족들은 자신이 사냥한 동물의 이빨로 목걸이를 만든다네요!",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "저도 만들어 보고 싶은데 사냥개 이빨 5개 좀 구해주시겠어요?",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1738,7 +1738,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -1766,7 +1766,7 @@
           "eventScenes": [
             {
               "script": "사냥개 이빨 5개 좀 구해주세요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1793,28 +1793,28 @@
           "eventScenes": [
             {
               "script": "정말로 구해오셨네요! 잠시만 기다리세요",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "...",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "......",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "만들었긴 했는데, 별로 제 취향은 아니네요. 용사님 드릴게요. 먼가 냄새나는거 같기도 하고...",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1858,21 +1858,21 @@
           "eventScenes": [
             {
               "script": "최근 와이번이 잘 돌아다니면서 와이번 꼬리 요리가 유행되었어요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "그런데 워낙 유행이라 요리는커녕 재료도 구하기가 힘들더군요. 물론 전 와이번을 잡을 수도 없고요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "그래서 그런데 대형 꼬리 5개만 구해다 주시겠어요? 사례는 준비할게요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1892,7 +1892,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -1920,7 +1920,7 @@
           "eventScenes": [
             {
               "script": "대형 꼬리 5개면 되요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -1947,21 +1947,21 @@
           "eventScenes": [
             {
               "script": "정말로 구해오셨네요! 맛은 별로 궁금하진 않지만, 유행이라면 이 정도는 감수해봐야죠.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "아, 사례는 이걸로 드려도 될까요? 예전에 어찌어찌 구하게 된 수정 방패인데.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             },
             {
               "script": "그래요, 이걸로도 될 거에요. 거래 성사네요.",
-              "characterPath": "cobweb_grocery_owner",
+              "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
@@ -2076,7 +2076,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -2230,7 +2230,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -2384,7 +2384,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -2651,7 +2651,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -2890,7 +2890,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -4956,7 +4956,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -6086,7 +6086,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -6848,7 +6848,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -7073,7 +7073,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -7176,7 +7176,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -8188,7 +8188,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -8429,7 +8429,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
@@ -10025,7 +10025,7 @@
             }
           },
           {
-            "rewardType": "open_npc_event",
+            "rewardType": "always_open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
               "eventPacket": {
