@@ -7673,7 +7673,7 @@
         "rewards": [
           {
             "rewardType": "quest_get_item",
-            "rewardState": "always_open",
+            "rewardState": "not_opened",
             "rewardParameter": {
               "quest": {
                 "questName" : "병악한 레모",
@@ -8180,10 +8180,10 @@
             "rewardType": "quest_get_item",
             "rewardState": "always_open",
             "rewardParameter": {
-              "item": {
+              "quest": {
                 "questName" : "응급 처치",
-                "itemPath": "huttuynia_cordata",
-                "itemCount": 3
+                "questObjectPath": "huttuynia_cordata",
+                "questObjectCount": 3
               }
             }
           },
@@ -10272,7 +10272,7 @@
             }
           },
           {
-            "rewardType": "quest_get_item",
+            "rewardType": "get_item",
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
