@@ -1745,8 +1745,8 @@
             "roomLabel": "room_1_1",
             "roomPosX": "1",
             "roomPosY": "1",
-            "roomType": "gate",
-            "link" : "portal_25_01",
+            "roomType": "object",
+            "link" : "portal_25_02",
             "forwardAngle": "right",
             "forwardConnections": [
               {
