@@ -2276,6 +2276,20 @@
       {
         "eventElement": "cobweb_story",
         "eventNumber": "52"
+      },
+      {
+        "eventElement": "cobweb_story",
+        "eventNumber": "100"
+      },
+      {
+        "eventElement": "cobweb_story",
+        "eventNumber": "101"
+      }
+    ],
+    "conditionalGameObjectEvents":[
+      {
+        "eventElement":"portal_25_02",
+        "eventNumber":"2"
       }
     ],
     "nextSections": [
