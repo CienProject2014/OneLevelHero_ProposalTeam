@@ -6231,7 +6231,7 @@
             "forwardConnections": [
               {
                 "roomLabel": "room_2_4",
-                "directionType": "forward"
+                "directionType": "backward"
               }
             ],
             "backwardConnections": []
