@@ -1092,7 +1092,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "kentaurous_elder": {
@@ -1299,7 +1299,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "hunting_dog": {
@@ -1572,7 +1572,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "nepel_02": {
@@ -1631,7 +1631,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "nepel_03": {
@@ -2311,7 +2311,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "lamia": {
@@ -2370,7 +2370,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "lamia_soldier": {
@@ -2986,7 +2986,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "shelf": {
@@ -3132,7 +3132,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "girl": {
@@ -3191,7 +3191,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "yurath": {
@@ -3250,7 +3250,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "golem_forest": {
@@ -3416,7 +3416,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "guard_forest": {
@@ -3597,7 +3597,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "rabbit": {
@@ -3636,7 +3636,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "moeraphim": {
@@ -3756,7 +3756,7 @@
       "waterResistance": 50,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "blooder": {
@@ -3815,7 +3815,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "raijuu": {
@@ -3874,7 +3874,7 @@
       "waterResistance": 0,
       "electricResistance": 50
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "chromat": {
@@ -4329,7 +4329,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "mawang_01": {
@@ -4388,7 +4388,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "mawang_02": {
@@ -4447,7 +4447,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "mawang_03": {
@@ -4506,7 +4506,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "moerae": {
@@ -4565,7 +4565,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "animal_human": {
@@ -4624,7 +4624,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   },
   "kadilla_guard": {
@@ -4683,7 +4683,7 @@
       "waterResistance": 0,
       "electricResistance": 0
     },
-    "dropItemList": [],
+    "dropItemList": {},
     "skillList": []
   }
 }
