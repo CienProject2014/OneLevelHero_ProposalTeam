@@ -353,8 +353,12 @@
       }
     ]
   },
-  "114":{
+  "114": {
     "sequencialEvents": [
+      {
+        "eventElement": "prologue",
+        "eventNumber": "40"
+      },
       {
         "eventElement": "prologue",
         "eventNumber": "34"
@@ -391,8 +395,12 @@
       }
     ]
   },
-  "115":{
+  "115": {
     "sequencialEvents": [
+      {
+        "eventElement": "prologue",
+        "eventNumber": "40"
+      },
       {
         "eventElement": "prologue",
         "eventNumber": "34"
@@ -2362,10 +2370,10 @@
         "eventNumber": "101"
       }
     ],
-    "conditionalGameObjectEvents":[
+    "conditionalGameObjectEvents": [
       {
-        "eventElement":"portal_25_02",
-        "eventNumber":"2"
+        "eventElement": "portal_25_02",
+        "eventNumber": "2"
       }
     ],
     "nextSections": [
@@ -2655,7 +2663,6 @@
       }
     ],
     "nextSections": [
-     
       {
         "nextSectionNumber": "404",
         "eventType": "move_sub_node_before_absolute_time",
@@ -2670,7 +2677,7 @@
           }
         }
       },
-       {
+      {
         "nextSectionNumber": "403",
         "eventType": "move_sub_node_after_absolute_time",
         "eventParameter": {
@@ -2880,7 +2887,6 @@
       }
     ],
     "nextSections": [
-     
       {
         "nextSectionNumber": "411",
         "eventType": "move_dungeon_room_after_absolute_time",
@@ -2896,7 +2902,7 @@
           }
         }
       },
-       {
+      {
         "nextSectionNumber": "410",
         "eventType": "move_dungeon_room_before_absolute_time",
         "eventParameter": {
