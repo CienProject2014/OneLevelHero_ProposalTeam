@@ -1173,7 +1173,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item" : {
-                "itemType" : "hadngrip",
+                "itemType" : "handgrip",
                 "itemPath" : "magic_procedure",
                 "itemCount" : 1
               }
