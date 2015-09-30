@@ -2753,7 +2753,7 @@
     "name": "미아와 아이",
     "positionIndex": 1,
     "elementPath": "mia_and_ai",
-    "facePath":"mia",
+    "facePath":"mia_and_ai",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -6351,7 +6351,7 @@
       },
       "3": {
         "eventTitle": "농사를 도와주세요(진행 중)",
-        "eventState": "opened",
+        "eventState": "not_opened",
         "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
@@ -6385,7 +6385,7 @@
       },
       "4": {
         "eventTitle": "농사를 도와주세요(완료)",
-        "eventState": "opened",
+        "eventState": "not_opened",
         "eventType": "chat",
         "eventParameter": {
           "eventScenes": [
@@ -6469,7 +6469,7 @@
     "name": "노엘과 리암",
     "positionIndex": 3,
     "elementPath": "noel_and_riam",
-    "facePath":"noel",
+    "facePath":"noel_and_riam",
     "events": {
       "1": {
         "eventTitle": "대화하기",
