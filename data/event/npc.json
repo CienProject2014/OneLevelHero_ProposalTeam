@@ -395,7 +395,7 @@
       "3": {
         "eventTitle": "몸에 좋은 보약(진행중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -711,7 +711,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_house"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "몸에 좋은 보약"
+          },
+          "eventPacket" : {
+                "eventElement" : "waiji",
+                "eventNumber" : 5 
+           }
         },
         "rewards": [
           {
@@ -927,7 +934,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_grocery"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "몸에 좋은 보약2"
+          },
+          "eventPacket" : {
+                "eventElement" : "blackwood_grocery_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -1993,7 +2007,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "사냥개 이빨 묶음"
+          },
+          "eventPacket" : {
+                "eventElement" : "cobweb_grocery_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -2157,7 +2178,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_grocery"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "와이번 꼬리 요리"
+          },
+          "eventPacket" : {
+                "eventElement" : "cobweb_grocery_owner",
+                "eventNumber" : 7
+           }
         },
         "rewards": [
           {
@@ -2351,7 +2379,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_smithy"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "예티 가죽털 경갑"
+          },
+          "eventPacket" : {
+                "eventElement" : "cobweb_smithy_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -2515,7 +2550,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_smithy"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "빙룡의 이빨"
+          },
+          "eventPacket" : {
+                "eventElement" : "cobweb_smithy_owner",
+                "eventNumber" : 7
+           }
         },
         "rewards": [
           {
@@ -2679,7 +2721,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_smithy"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "안킬라스 쉴드"
+          },
+          "eventPacket" : {
+                "eventElement" : "cobweb_smithy_owner",
+                "eventNumber" : 10
+           }
         },
         "rewards": [
           {
@@ -2956,7 +3005,14 @@
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "끝나지 않는 악몽"
+          },
+          "eventPacket" : {
+                "eventElement" : "mia_and_ai",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -3212,7 +3268,14 @@
               "speakerPosition": "left",
               "backgroundPath": "oberon_house"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "소원의 끝"
+          },
+          "eventPacket" : {
+                "eventElement" : "nade",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -6419,7 +6482,14 @@
               "speakerPosition": "left",
               "backgroundPath": "middle_ridge_farm"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "농사를 도와주세요"
+          },
+          "eventPacket" : {
+                "eventElement" : "farmer",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -6981,7 +7051,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_inn"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "배게 부족"
+          },
+          "eventPacket" : {
+                "eventElement" : "middle_ridge_inn_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -7201,7 +7278,14 @@
               "speakerPosition": "left",
               "backgroundPath": "vaical_castle_lab"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "연금술"
+          },
+          "eventPacket" : {
+                "eventElement" : "fist",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -7436,7 +7520,14 @@
               "speakerPosition": "left",
               "backgroundPath": "vaical_castle_headhouse"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "마을의 저주"
+          },
+          "eventPacket" : {
+                "eventElement" : "vaical_villagehead",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -7549,7 +7640,14 @@
               "speakerPosition": "left",
               "backgroundPath": "vaical_castle_headhouse"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "마을의 저주2"
+          },
+          "eventPacket" : {
+                "eventElement" : "vaical_villagehead",
+                "eventNumber" : 5
+           }
         },
         "rewards": [
           {
@@ -8066,7 +8164,14 @@
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "병약한 레모"
+          },
+          "eventPacket" : {
+                "eventElement" : "nia",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -8297,7 +8402,14 @@
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "잃어버린 것"
+          },
+          "eventPacket" : {
+                "eventElement" : "noctern",
+                "eventNumber" : 4
+           }
         }
       },
       "4": {
@@ -8591,7 +8703,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_inn"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "응급 처치"
+          },
+          "eventPacket" : {
+                "eventElement" : "hunter",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -8851,7 +8970,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_inn"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "그녀를 위한 선물"
+          },
+          "eventPacket" : {
+                "eventElement" : "tenardie",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -10448,7 +10574,14 @@
               "speakerPosition": "left",
               "backgroundPath": "blackwood_inn"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "여관의 새단장"
+          },
+          "eventPacket" : {
+                "eventElement" : "bonichea_inn_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
