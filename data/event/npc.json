@@ -329,6 +329,49 @@
             }
           }
         ]
+      },
+    "2": {
+        "eventTitle": "꼬신다",
+        "eventState": "opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "우리와 함께가자!",
+              "characterPath": "yongsa",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "bonichea_square"
+            },
+            {
+              "script": "디오미론느가 동료가 되었다.",
+              "characterPath": "nothing_image",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "bonichea_square"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          },
+          {
+            "rewardType": "join_party",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "unit" : {
+                "heroPath" : "diomirhone"
+              }
+            }
+          }
+        ]
       }
     },
     "greetingMessages": [
