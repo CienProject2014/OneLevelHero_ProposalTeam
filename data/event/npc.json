@@ -329,176 +329,6 @@
             }
           }
         ]
-      },
-      "2": {
-        "eventTitle": "",
-        "eventState": "opened",
-        "eventType": "chat",
-        "eventParameter": {
-          "eventScenes": [
-            {
-              "script": "에구구…",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "역시 나이를 먹으니 몸이 예전 같지 않구먼…",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "보약같은 거라도 먹으면 몸보신이 좀 되겠지만 말이지.",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            }
-          ]
-        },
-        "rewards": [
-          {
-            "rewardType": "quest_get_item",
-            "rewardState": "always_open",
-            "rewardParameter": {
-              "quest": {
-                "questName" : "몸에 좋은 보약",
-                "questObjectPath": "god_of_drug",
-                "questObjectCount": 1
-              }
-            }
-          },
-          {
-            "rewardType": "always_open_npc_event",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "eventPacket": {
-                "eventElement": "waiji",
-                "eventNumber": 4
-              }
-            }
-          },
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          }
-        ]
-      },
-      "3": {
-        "eventTitle": "몸에 좋은 보약(진행중)",
-        "eventState": "not_opened",
-        "eventType": "check_quest",
-        "eventParameter": {
-          "eventScenes": [
-            {
-              "script": "보약같은 거라도 먹으면 몸보신이 좀 되겠지만 말이지.",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            }
-          ]
-        },
-        "rewards": [
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          }
-        ]
-      },
-      "4": {
-        "eventTitle": "몸에 좋은 보약(완료)",
-        "eventState": "not_opened",
-        "eventType": "chat",
-        "eventParameter": {
-          "eventScenes": [
-            {
-              "script": "응? 이게 뭔가?",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "아니 이건 궁극의 보약이 아닌가? 이 귀한 걸 어디서 구했나?",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "이렇게 고마울 데가 다 있나…",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "이런 걸 그냥 받을 수는 없지.",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "나한테는 어차피 쓸모 없는 거니 이거라도 받아주시게.",
-              "characterPath": "waiji",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "blackwood_house"
-            },
-            {
-              "script": "골리앗을 받았다.",
-              "characterPath": "nothing_image",
-              "faceNumber": "01",
-              "backgroundPath": "blackwood_house"
-            }
-          ]
-        },
-        "rewards": [
-          {
-            "rewardType": "get_item",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "item": {
-                "itemPath": "goliath",
-                "itemCount": 1
-              }
-            }
-          },
-          {
-            "rewardType": "pass_time",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "time": {
-                "minute": 5
-              }
-            }
-          },
-          {
-            "rewardType": "close_npc_event",
-            "rewardState": "not_opened",
-            "rewardParameter": {
-              "eventPacket": {
-                "eventElement": "waiji",
-                "eventNumber": 4
-              }
-            }
-          }
-        ]
       }
     },
     "greetingMessages": [
@@ -1953,7 +1783,7 @@
               "backgroundPath": "cobweb_grocery"
             },
             {
-              "script": "저도 만들어 보고 싶은데 사냥개 이빨 5개 좀 구해주시겠어요?",
+              "script": "저도 만들어 보고 싶은데 사냥개 이빨 3개 좀 구해주시겠어요?",
               "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -1969,7 +1799,7 @@
               "quest": {
                 "questName" : "사냥개 이빨 묶음",
                 "questObjectPath": "tooth_of_dog",
-                "questObjectCount": 5
+                "questObjectCount": 3
               }
             }
           },
@@ -2001,7 +1831,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "사냥개 이빨 5개 좀 구해주세요.",
+              "script": "사냥개 이빨 3개 좀 구해주세요.",
               "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2124,7 +1954,7 @@
               "backgroundPath": "cobweb_grocery"
             },
             {
-              "script": "그래서 그런데 대형 꼬리 5개만 구해다 주시겠어요? 사례는 준비할게요.",
+              "script": "그래서 그런데 대형 꼬리 3개만 구해다 주시겠어요? 사례는 준비할게요.",
               "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2140,7 +1970,7 @@
               "quest": {
                 "questName" : "와이번 꼬리 요리",
                 "questObjectPath": "big_tail",
-                "questObjectCount": 5
+                "questObjectCount": 3
               }
             }
           },
@@ -2172,7 +2002,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "대형 꼬리 5개면 되요.",
+              "script": "대형 꼬리 3개면 되요.",
               "characterPath": "grocery_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2325,7 +2155,7 @@
               "backgroundPath": "cobweb_smithy"
             },
             {
-              "script": "자네가 용사이니 하는 말이지만, 예티의 털 5개만 가져오면 내 특별히 그 갑옷을 만들어주지.",
+              "script": "자네가 용사이니 하는 말이지만, 예티의 털 3개만 가져오면 내 특별히 그 갑옷을 만들어주지.",
               "characterPath": "cobweb_smithy_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2341,7 +2171,7 @@
               "quest": {
                 "questName" : "예티 가죽털 경갑",
                 "questObjectPath": "wool_of_yetie",
-                "questObjectCount": 5
+                "questObjectCount": 3
               }
             }
           },
@@ -2373,7 +2203,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "예티의 털 5개만 가져오면 내 특별히 그 갑옷을 만들어주지.",
+              "script": "예티의 털 3개만 가져오면 내 특별히 그 갑옷을 만들어주지.",
               "characterPath": "cobweb_smithy_owner",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2951,7 +2781,7 @@
               "backgroundPath": "oberon_house"
             },
             {
-              "script": "죄송하지만, 저희를 괴롭히는 티타니아 산의 타락한 정령들을 없애 주실 수 있을까요? 10마리정도 잡으면 될 거 같아요.",
+              "script": "죄송하지만, 저희를 괴롭히는 티타니아 산의 타락한 정령들을 없애 주실 수 있을까요? 4마리정도 잡으면 될 거 같아요.",
               "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -2967,7 +2797,7 @@
               "quest": {
                 "questName" : "끝나지 않는 악몽",
                 "questObjectPath": "soul_deprave",
-                "questObjectCount": 10
+                "questObjectCount": 4
               }
             }
           },
@@ -2999,7 +2829,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "타락한 정령 10마리를 해치워 주신 후 저희에게 돌아와 주세요.",
+              "script": "타락한 정령 4마리를 해치워 주신 후 저희에게 돌아와 주세요.",
               "characterPath": "mia",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -5344,7 +5174,14 @@
               "speakerPosition": "left",
               "backgroundPath": "cobweb_smithy"
             }
-          ]
+          ],
+          "quest" : {
+             "questName" : "거인을 잡는 활"
+          },
+          "eventPacket" : {
+                "eventElement" : "southcape_smithy_owner",
+                "eventNumber" : 4
+           }
         },
         "rewards": [
           {
@@ -6428,7 +6265,7 @@
               "backgroundPath": "middle_ridge_farm"
             },
             {
-              "script": "키메라 5마리를 처치해주면 본보기가 될 거 같습니다.",
+              "script": "키메라 3마리를 처치해주면 본보기가 될 거 같습니다.",
               "characterPath": "farmer",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -6444,7 +6281,7 @@
               "quest": {
                 "questName" : "농사를 도와주세요",
                 "questObjectPath": "chimera",
-                "questObjectCount": 5
+                "questObjectCount": 3
               }
             }
           },
@@ -7224,7 +7061,7 @@
               "backgroundPath": "vaical_castle_lab"
             },
             {
-              "script": "그렇다면 정령의 핵 5개를 가지고 와.",
+              "script": "그렇다면 정령의 핵 3개를 가지고 와.",
               "characterPath": "fist",
               "faceNumber": "01",
               "speakerPosition": "left",
@@ -7240,7 +7077,7 @@
               "quest": {
                 "questName" : "연금술",
                 "questObjectPath": "core_of_spirit",
-                "questObjectCount": 5
+                "questObjectCount": 3
               }
             }
           },
@@ -7272,7 +7109,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "어서 정령의 핵 5개를 가져와.",
+              "script": "어서 정령의 핵 3개를 가져와.",
               "characterPath": "fist",
               "faceNumber": "01",
               "speakerPosition": "left",
