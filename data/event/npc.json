@@ -301,7 +301,209 @@
   },
   "diomirhone": {
     "name": "디오미론느",
-    "elementPath": "diomirhone"
+    "elementPath": "diomirhone",
+    "events": {
+      "1": {
+        "eventTitle": "대화하기",
+        "eventState": "always_open",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "저는 강령술사 페르미노 디오미론느 입니다.",
+              "characterPath": "diomirhone",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "bonichea_square"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      },
+      "2": {
+        "eventTitle": "",
+        "eventState": "opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "에구구…",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "역시 나이를 먹으니 몸이 예전 같지 않구먼…",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "보약같은 거라도 먹으면 몸보신이 좀 되겠지만 말이지.",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "quest_get_item",
+            "rewardState": "always_open",
+            "rewardParameter": {
+              "quest": {
+                "questName" : "몸에 좋은 보약",
+                "questObjectPath": "god_of_drug",
+                "questObjectCount": 1
+              }
+            }
+          },
+          {
+            "rewardType": "always_open_npc_event",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "eventPacket": {
+                "eventElement": "waiji",
+                "eventNumber": 4
+              }
+            }
+          },
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      },
+      "3": {
+        "eventTitle": "몸에 좋은 보약(진행중)",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "보약같은 거라도 먹으면 몸보신이 좀 되겠지만 말이지.",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          }
+        ]
+      },
+      "4": {
+        "eventTitle": "몸에 좋은 보약(완료)",
+        "eventState": "not_opened",
+        "eventType": "chat",
+        "eventParameter": {
+          "eventScenes": [
+            {
+              "script": "응? 이게 뭔가?",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "아니 이건 궁극의 보약이 아닌가? 이 귀한 걸 어디서 구했나?",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "이렇게 고마울 데가 다 있나…",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "이런 걸 그냥 받을 수는 없지.",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "나한테는 어차피 쓸모 없는 거니 이거라도 받아주시게.",
+              "characterPath": "waiji",
+              "faceNumber": "01",
+              "speakerPosition": "left",
+              "backgroundPath": "blackwood_house"
+            },
+            {
+              "script": "골리앗을 받았다.",
+              "characterPath": "nothing_image",
+              "faceNumber": "01",
+              "backgroundPath": "blackwood_house"
+            }
+          ]
+        },
+        "rewards": [
+          {
+            "rewardType": "get_item",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "item": {
+                "itemPath": "goliath",
+                "itemCount": 1
+              }
+            }
+          },
+          {
+            "rewardType": "pass_time",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "time": {
+                "minute": 5
+              }
+            }
+          },
+          {
+            "rewardType": "close_npc_event",
+            "rewardState": "not_opened",
+            "rewardParameter": {
+              "eventPacket": {
+                "eventElement": "waiji",
+                "eventNumber": 4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "greetingMessages": [
+      "용사님 아니신가요?"
+    ]
   },
   "mawang": {
     "name": "마왕",
@@ -499,7 +701,7 @@
       "4": {
         "eventTitle": "몸에 좋은 보약(진행중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -715,7 +917,7 @@
       "3": {
         "eventTitle": "몸에 좋은 보약(진행중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -1781,7 +1983,7 @@
       "3": {
         "eventTitle": "사냥개 이빨 묶음(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -2139,7 +2341,7 @@
       "3": {
         "eventTitle": "예티 가죽털 경갑(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -2303,7 +2505,7 @@
       "6": {
         "eventTitle": "빙룡의 이빨(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -2467,7 +2669,7 @@
       "9": {
         "eventTitle": "안킬라스 쉴드(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -2744,7 +2946,7 @@
       "3": {
         "eventTitle": "끝나지 않는 악몽(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -2993,7 +3195,7 @@
       "3": {
         "eventTitle": "소원의 끝(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -6207,7 +6409,7 @@
       "3": {
         "eventTitle": "농사를 도와주세요(진행 중)",
         "eventState": "opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -6769,7 +6971,7 @@
       "3": {
         "eventTitle": "배게 부족(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -6989,7 +7191,7 @@
       "3": {
         "eventTitle": "연금술(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -7224,7 +7426,7 @@
       "3": {
         "eventTitle": "마을의 저주(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -7337,7 +7539,7 @@
       "5": {
         "eventTitle": "마을의 저주(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -7854,7 +8056,7 @@
       "3": {
         "eventTitle": "병약한 레모(진행중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -8085,7 +8287,7 @@
       "3": {
         "eventTitle": "잃어버린 것(진행중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -8379,7 +8581,7 @@
       "3": {
         "eventTitle": "응급 처치(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -8639,7 +8841,7 @@
       "3": {
         "eventTitle": "그녀를 위한 선물(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
@@ -10236,7 +10438,7 @@
       "3": {
         "eventTitle": "여관의 새단장(진행 중)",
         "eventState": "not_opened",
-        "eventType": "chat",
+        "eventType": "check_quest",
         "eventParameter": {
           "eventScenes": [
             {
