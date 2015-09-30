@@ -1017,14 +1017,14 @@
             },
             {
               "script": "자네 지금 뭐 하는 건가! 완전 날강도가 따로 없네!",
-              "characterPath": "nia",
+              "characterPath": "noctern",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
             },
             {
-              "script": "당장 나가요!",
-              "characterPath": "nia",
+              "script": "당장 나가!",
+              "characterPath": "noctern",
               "faceNumber": "01",
               "speakerPosition": "left",
               "backgroundPath": "redrose_castle_house"
