@@ -330,7 +330,7 @@
           }
         ]
       },
-    "2": {
+      "2": {
         "eventTitle": "꼬신다",
         "eventState": "opened",
         "eventType": "chat",
@@ -366,8 +366,8 @@
             "rewardType": "join_party",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "unit" : {
-                "heroPath" : "diomirhone"
+              "unit": {
+                "heroPath": "diomirhone"
               }
             }
           }
@@ -544,7 +544,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "몸에 좋은 보약",
+                "questName": "몸에 좋은 보약",
                 "questObjectPath": "god_of_drug",
                 "questObjectCount": 1
               }
@@ -585,13 +585,13 @@
               "backgroundPath": "blackwood_house"
             }
           ],
-          "quest" : {
-             "questName" : "몸에 좋은 보약"
+          "quest": {
+            "questName": "몸에 좋은 보약"
           },
-          "eventPacket" : {
-                "eventElement" : "waiji",
-                "eventNumber" : 5 
-           }
+          "eventPacket": {
+            "eventElement": "waiji",
+            "eventNumber": 5
+          }
         },
         "rewards": [
           {
@@ -660,7 +660,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "goliath",
                 "itemCount": 1
               }
@@ -768,7 +768,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "몸에 좋은 보약2",
+                "questName": "몸에 좋은 보약2",
                 "questObjectPath": "heart",
                 "questObjectCount": 1
               }
@@ -809,13 +809,13 @@
               "backgroundPath": "blackwood_grocery"
             }
           ],
-          "quest" : {
-             "questName" : "몸에 좋은 보약2"
+          "quest": {
+            "questName": "몸에 좋은 보약2"
           },
-          "eventPacket" : {
-                "eventElement" : "blackwood_grocery_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "blackwood_grocery_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -857,7 +857,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "consumables",
+                "itemType": "consumables",
                 "itemPath": "god_of_drug",
                 "itemCount": 1
               }
@@ -1356,7 +1356,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "accessory",
+                "itemType": "accessory",
                 "itemPath": "garnet_pendant",
                 "itemCount": 1
               }
@@ -1843,7 +1843,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "사냥개 이빨 묶음",
+                "questName": "사냥개 이빨 묶음",
                 "questObjectPath": "tooth_of_dog",
                 "questObjectCount": 3
               }
@@ -1884,13 +1884,13 @@
               "backgroundPath": "cobweb_grocery"
             }
           ],
-          "quest" : {
-             "questName" : "사냥개 이빨 묶음"
+          "quest": {
+            "questName": "사냥개 이빨 묶음"
           },
-          "eventPacket" : {
-                "eventElement" : "cobweb_grocery_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "cobweb_grocery_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -1953,7 +1953,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "accessory",
+                "itemType": "accessory",
                 "itemPath": "teeth_of_dog_bundle",
                 "itemCount": 1
               }
@@ -2015,7 +2015,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "와이번 꼬리 요리",
+                "questName": "와이번 꼬리 요리",
                 "questObjectPath": "big_tail",
                 "questObjectCount": 3
               }
@@ -2056,13 +2056,13 @@
               "backgroundPath": "cobweb_grocery"
             }
           ],
-          "quest" : {
-             "questName" : "와이번 꼬리 요리"
+          "quest": {
+            "questName": "와이번 꼬리 요리"
           },
-          "eventPacket" : {
-                "eventElement" : "cobweb_grocery_owner",
-                "eventNumber" : 7
-           }
+          "eventPacket": {
+            "eventElement": "cobweb_grocery_owner",
+            "eventNumber": 7
+          }
         },
         "rewards": [
           {
@@ -2118,7 +2118,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "handgrip",
+                "itemType": "handgrip",
                 "itemPath": "crystal_shield",
                 "itemCount": 1
               }
@@ -2217,7 +2217,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "예티 가죽털 경갑",
+                "questName": "예티 가죽털 경갑",
                 "questObjectPath": "wool_of_yetie",
                 "questObjectCount": 3
               }
@@ -2258,13 +2258,13 @@
               "backgroundPath": "cobweb_smithy"
             }
           ],
-          "quest" : {
-             "questName" : "예티 가죽털 경갑"
+          "quest": {
+            "questName": "예티 가죽털 경갑"
           },
-          "eventPacket" : {
-                "eventElement" : "cobweb_smithy_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "cobweb_smithy_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -2327,7 +2327,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "yettie_leather_armor",
                 "itemCount": 1
               }
@@ -2389,7 +2389,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "빙룡의 이빨",
+                "questName": "빙룡의 이빨",
                 "questObjectPath": "core_of_anhuntas",
                 "questObjectCount": 1
               }
@@ -2430,13 +2430,13 @@
               "backgroundPath": "cobweb_smithy"
             }
           ],
-          "quest" : {
-             "questName" : "빙룡의 이빨"
+          "quest": {
+            "questName": "빙룡의 이빨"
           },
-          "eventPacket" : {
-                "eventElement" : "cobweb_smithy_owner",
-                "eventNumber" : 7
-           }
+          "eventPacket": {
+            "eventElement": "cobweb_smithy_owner",
+            "eventNumber": 7
+          }
         },
         "rewards": [
           {
@@ -2499,7 +2499,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "handgrip",
+                "itemType": "handgrip",
                 "itemPath": "ice_dragon_tooth",
                 "itemCount": 1
               }
@@ -2561,7 +2561,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "안킬라스 쉴드",
+                "questName": "안킬라스 쉴드",
                 "questObjectPath": "core_of_anhuntas",
                 "questObjectCount": 1
               }
@@ -2602,13 +2602,13 @@
               "backgroundPath": "cobweb_smithy"
             }
           ],
-          "quest" : {
-             "questName" : "안킬라스 쉴드"
+          "quest": {
+            "questName": "안킬라스 쉴드"
           },
-          "eventPacket" : {
-                "eventElement" : "cobweb_smithy_owner",
-                "eventNumber" : 10
-           }
+          "eventPacket": {
+            "eventElement": "cobweb_smithy_owner",
+            "eventNumber": 10
+          }
         },
         "rewards": [
           {
@@ -2671,7 +2671,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "handgrip",
+                "itemType": "handgrip",
                 "itemPath": "anhuntas_shield",
                 "itemCount": 1
               }
@@ -2749,19 +2749,19 @@
     "name": "네펠",
     "elementPath": "nepel"
   },
-  "mia":{
-    "name":"미아",
-    "elementPath":"mia"
+  "mia": {
+    "name": "미아",
+    "elementPath": "mia"
   },
-  "ai":{
-    "name":"아이",
-    "elementPath":"ai"
+  "ai": {
+    "name": "아이",
+    "elementPath": "ai"
   },
   "mia_and_ai": {
     "name": "미아와 아이",
     "positionIndex": 1,
     "elementPath": "mia_and_ai",
-    "facePath":"mia_and_ai",
+    "facePath": "mia_and_ai",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -2846,7 +2846,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "끝나지 않는 악몽",
+                "questName": "끝나지 않는 악몽",
                 "questObjectPath": "soul_deprave",
                 "questObjectCount": 4
               }
@@ -2887,13 +2887,13 @@
               "backgroundPath": "oberon_house"
             }
           ],
-          "quest" : {
-             "questName" : "끝나지 않는 악몽"
+          "quest": {
+            "questName": "끝나지 않는 악몽"
           },
-          "eventPacket" : {
-                "eventElement" : "mia_and_ai",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "mia_and_ai",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -2956,7 +2956,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "handgrip",
+                "itemType": "handgrip",
                 "itemPath": "death_note",
                 "itemCount": 1
               }
@@ -3103,7 +3103,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "소원의 끝",
+                "questName": "소원의 끝",
                 "questObjectPath": "prickly_pear",
                 "questObjectCount": 1
               }
@@ -3151,13 +3151,13 @@
               "backgroundPath": "oberon_house"
             }
           ],
-          "quest" : {
-             "questName" : "소원의 끝"
+          "quest": {
+            "questName": "소원의 끝"
           },
-          "eventPacket" : {
-                "eventElement" : "nade",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "nade",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -3220,7 +3220,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "guarder_armor",
                 "itemCount": 1
               }
@@ -3390,7 +3390,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "sniper_armor",
                 "itemCount": 1
               }
@@ -3925,7 +3925,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "sniper_armor",
                 "itemCount": 1
               }
@@ -5189,7 +5189,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "거인을 잡는 활",
+                "questName": "거인을 잡는 활",
                 "questObjectPath": "stick_of_cyclops",
                 "questObjectCount": 2
               }
@@ -5230,13 +5230,13 @@
               "backgroundPath": "cobweb_smithy"
             }
           ],
-          "quest" : {
-             "questName" : "거인을 잡는 활"
+          "quest": {
+            "questName": "거인을 잡는 활"
           },
-          "eventPacket" : {
-                "eventElement" : "southcape_smithy_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "southcape_smithy_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -5313,7 +5313,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "giant_bow",
                 "itemCount": 1
               }
@@ -5982,17 +5982,17 @@
     "name": "어린 용사",
     "elementPath": "yongsa_young"
   },
-  "kein_young" : {
-  	"name" : "젊은 케인",
-  	"elementPath" : "kein_young"
+  "kein_young": {
+    "name": "젊은 케인",
+    "elementPath": "kein_young"
   },
   "kein_father": {
     "name": "케인의 아버지",
     "elementPath": "kein_father"
   },
-  "kelen" : {
-  	"name" : "켈렌",
-  	"elementPath" : "kelen"
+  "kelen": {
+    "name": "켈렌",
+    "elementPath": "kelen"
   },
   "diarkan": {
     "name": "디아르칸",
@@ -6335,7 +6335,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "농사를 도와주세요",
+                "questName": "농사를 도와주세요",
                 "questObjectPath": "chimera",
                 "questObjectCount": 3
               }
@@ -6376,13 +6376,13 @@
               "backgroundPath": "middle_ridge_farm"
             }
           ],
-          "quest" : {
-             "questName" : "농사를 도와주세요"
+          "quest": {
+            "questName": "농사를 도와주세요"
           },
-          "eventPacket" : {
-                "eventElement" : "farmer",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "farmer",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -6438,7 +6438,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "judgment_sword",
                 "itemCount": 1
               }
@@ -6483,7 +6483,7 @@
     "name": "노엘과 리암",
     "positionIndex": 3,
     "elementPath": "noel_and_riam",
-    "facePath":"noel_and_riam",
+    "facePath": "noel_and_riam",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -6795,7 +6795,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "consumables",
+                "itemType": "consumables",
                 "itemPath": "smokescreen",
                 "itemCount": 2
               }
@@ -6906,7 +6906,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "배게 부족",
+                "questName": "배게 부족",
                 "questObjectPath": "bourre_of_unicorn",
                 "questObjectCount": 1
               }
@@ -6947,13 +6947,13 @@
               "backgroundPath": "blackwood_inn"
             }
           ],
-          "quest" : {
-             "questName" : "배게 부족"
+          "quest": {
+            "questName": "배게 부족"
           },
-          "eventPacket" : {
-                "eventElement" : "middle_ridge_inn_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "middle_ridge_inn_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -7016,7 +7016,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "consumables",
+                "itemType": "consumables",
                 "itemPath": "big_healing",
                 "itemCount": 2
               }
@@ -7134,7 +7134,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "연금술",
+                "questName": "연금술",
                 "questObjectPath": "core_of_spirit",
                 "questObjectCount": 3
               }
@@ -7175,13 +7175,13 @@
               "backgroundPath": "vaical_castle_lab"
             }
           ],
-          "quest" : {
-             "questName" : "연금술"
+          "quest": {
+            "questName": "연금술"
           },
-          "eventPacket" : {
-                "eventElement" : "fist",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "fist",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -7251,7 +7251,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "accessory",
+                "itemType": "accessory",
                 "itemPath": "silver_pentant",
                 "itemCount": 1
               }
@@ -7377,7 +7377,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "마을의 저주",
+                "questName": "마을의 저주",
                 "questObjectPath": "albino_chimera",
                 "questObjectCount": 1
               }
@@ -7418,13 +7418,13 @@
               "backgroundPath": "vaical_castle_headhouse"
             }
           ],
-          "quest" : {
-             "questName" : "마을의 저주"
+          "quest": {
+            "questName": "마을의 저주"
           },
-          "eventPacket" : {
-                "eventElement" : "vaical_villagehead",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "vaical_villagehead",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -7487,7 +7487,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "마을의 저주2",
+                "questName": "마을의 저주2",
                 "questObjectPath": "auroral_unicorn",
                 "questObjectCount": 1
               }
@@ -7538,13 +7538,13 @@
               "backgroundPath": "vaical_castle_headhouse"
             }
           ],
-          "quest" : {
-             "questName" : "마을의 저주2"
+          "quest": {
+            "questName": "마을의 저주2"
           },
-          "eventPacket" : {
-                "eventElement" : "vaical_villagehead",
-                "eventNumber" : 5
-           }
+          "eventPacket": {
+            "eventElement": "vaical_villagehead",
+            "eventNumber": 5
+          }
         },
         "rewards": [
           {
@@ -7600,7 +7600,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "centauros_bow",
                 "itemCount": 1
               }
@@ -7744,9 +7744,9 @@
             "rewardType": "close_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 3
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 3
               }
             }
           },
@@ -7754,9 +7754,9 @@
             "rewardType": "open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 4
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 4
               }
             }
           }
@@ -7786,9 +7786,9 @@
             "rewardType": "close_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 4
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 4
               }
             }
           },
@@ -7796,9 +7796,9 @@
             "rewardType": "open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 5
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 5
               }
             }
           }
@@ -7828,9 +7828,9 @@
             "rewardType": "close_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 5
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 5
               }
             }
           },
@@ -7838,9 +7838,9 @@
             "rewardType": "open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 6
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 6
               }
             }
           }
@@ -7870,9 +7870,9 @@
             "rewardType": "close_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 6
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 6
               }
             }
           },
@@ -7880,9 +7880,9 @@
             "rewardType": "open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 7
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 7
               }
             }
           }
@@ -7912,9 +7912,9 @@
             "rewardType": "close_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 7
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 7
               }
             }
           },
@@ -7922,9 +7922,9 @@
             "rewardType": "open_npc_event",
             "rewardState": "not_opened",
             "rewardParameter": {
-              "eventPacket" : {
-                "eventElement" : "aren",
-                "eventNumber" : 8
+              "eventPacket": {
+                "eventElement": "aren",
+                "eventNumber": 8
               }
             }
           }
@@ -7967,7 +7967,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "berserker_armor",
                 "itemCount": 1
               }
@@ -7983,7 +7983,7 @@
   "nia": {
     "name": "니아",
     "elementPath": "nia",
-    "facePath":"nia",
+    "facePath": "nia",
     "events": {
       "1": {
         "eventTitle": "대화하기",
@@ -8068,7 +8068,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "quest": {
-                "questName" : "병악한 레모",
+                "questName": "병악한 레모",
                 "questObjectPath": "peony",
                 "questObjectCount": 3
               }
@@ -8109,13 +8109,13 @@
               "backgroundPath": "redrose_castle_house"
             }
           ],
-          "quest" : {
-             "questName" : "병약한 레모"
+          "quest": {
+            "questName": "병약한 레모"
           },
-          "eventPacket" : {
-                "eventElement" : "nia",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "nia",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -8171,7 +8171,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "accessory",
+                "itemType": "accessory",
                 "itemPath": "speedy_pendant",
                 "itemCount": 1
               }
@@ -8307,7 +8307,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "잃어버린 것",
+                "questName": "잃어버린 것",
                 "questObjectPath": "seed_pocket",
                 "questObjectCount": 3
               }
@@ -8348,13 +8348,13 @@
               "backgroundPath": "redrose_castle_house"
             }
           ],
-          "quest" : {
-             "questName" : "잃어버린 것"
+          "quest": {
+            "questName": "잃어버린 것"
           },
-          "eventPacket" : {
-                "eventElement" : "noctern",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "noctern",
+            "eventNumber": 4
+          }
         }
       },
       "4": {
@@ -8406,7 +8406,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "palenote",
                 "itemCount": 1
               }
@@ -8609,7 +8609,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "응급 처치",
+                "questName": "응급 처치",
                 "questObjectPath": "huttuynia_cordata",
                 "questObjectCount": 3
               }
@@ -8650,13 +8650,13 @@
               "backgroundPath": "blackwood_inn"
             }
           ],
-          "quest" : {
-             "questName" : "응급 처치"
+          "quest": {
+            "questName": "응급 처치"
           },
-          "eventPacket" : {
-                "eventElement" : "hunter",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "hunter",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -8747,7 +8747,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "clothes",
+                "itemType": "clothes",
                 "itemPath": "winter_ruler",
                 "itemCount": 1
               }
@@ -8868,7 +8868,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "그녀를 위한 선물",
+                "questName": "그녀를 위한 선물",
                 "questObjectPath": "petal_of_rafflesia",
                 "questObjectCount": 5
               }
@@ -8918,13 +8918,13 @@
               "backgroundPath": "blackwood_inn"
             }
           ],
-          "quest" : {
-             "questName" : "그녀를 위한 선물"
+          "quest": {
+            "questName": "그녀를 위한 선물"
           },
-          "eventPacket" : {
-                "eventElement" : "tenardie",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "tenardie",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -8973,7 +8973,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "weapon",
+                "itemType": "handgrip",
                 "itemPath": "catapult",
                 "itemCount": 1
               }
@@ -10482,7 +10482,7 @@
             "rewardState": "always_open",
             "rewardParameter": {
               "quest": {
-                "questName" : "여관의 새단장",
+                "questName": "여관의 새단장",
                 "questObjectPath": "nacre",
                 "questObjectCount": 3
               }
@@ -10523,13 +10523,13 @@
               "backgroundPath": "blackwood_inn"
             }
           ],
-          "quest" : {
-             "questName" : "여관의 새단장"
+          "quest": {
+            "questName": "여관의 새단장"
           },
-          "eventPacket" : {
-                "eventElement" : "bonichea_inn_owner",
-                "eventNumber" : 4
-           }
+          "eventPacket": {
+            "eventElement": "bonichea_inn_owner",
+            "eventNumber": 4
+          }
         },
         "rewards": [
           {
@@ -10578,7 +10578,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "consumables",
+                "itemType": "consumables",
                 "itemPath": "big_healing",
                 "itemCount": 3
               }
@@ -10758,7 +10758,7 @@
             "rewardState": "not_opened",
             "rewardParameter": {
               "item": {
-                "itemType" : "consumables",
+                "itemType": "consumables",
                 "itemPath": "huttuynia_cordata",
                 "itemCount": 3
               }
