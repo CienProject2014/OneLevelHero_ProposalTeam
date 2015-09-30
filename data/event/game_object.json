@@ -63,7 +63,7 @@
         "eventParameter": {
           "eventScenes": [
             {
-              "script": "4시간이 흐르고 파티원의 체력 전부와 피로도 일부가 회복되었습니다.",
+              "script": "4시간이 흐르고 파티원의 체력 전부와 피로도 20이 회복되었습니다.",
               "characterPath": "nothing_image",
               "faceNumber":"01",
               "backgroundPath": "elven_forest"
