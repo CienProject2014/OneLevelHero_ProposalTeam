@@ -801,7 +801,7 @@
   "blackwood_resident": {
     "name": "마을사람",
     "elementPath": "blackwood_resident",
-    "facePath": "resident_07",
+    "facePath": "resident_03",
     "events": {
       "1": {
         "eventTitle": "대화하기",
