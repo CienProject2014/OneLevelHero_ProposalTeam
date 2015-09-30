@@ -545,7 +545,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "몸에 좋은 보약",
-                "questObjectPath": "god_of_drug",
+                "questObjectPath": "white_tiger",
                 "questObjectCount": 1
               }
             }
@@ -769,7 +769,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "몸에 좋은 보약2",
-                "questObjectPath": "heart",
+                "questObjectPath": "white_tiger",
                 "questObjectCount": 1
               }
             }
@@ -1844,7 +1844,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "사냥개 이빨 묶음",
-                "questObjectPath": "tooth_of_dog",
+                "questObjectPath": "hunting_dog",
                 "questObjectCount": 3
               }
             }
@@ -6907,7 +6907,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "배게 부족",
-                "questObjectPath": "bourre_of_unicorn",
+                "questObjectPath": "unicorn",
                 "questObjectCount": 1
               }
             }
@@ -7135,7 +7135,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "연금술",
-                "questObjectPath": "core_of_spirit",
+                "questObjectPath": "elemental_fire",
                 "questObjectCount": 3
               }
             }
@@ -8308,7 +8308,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "잃어버린 것",
-                "questObjectPath": "seed_pocket",
+                "questObjectPath": "twinhead",
                 "questObjectCount": 3
               }
             }
@@ -8869,7 +8869,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "그녀를 위한 선물",
-                "questObjectPath": "petal_of_rafflesia",
+                "questObjectPath": "rafflesia",
                 "questObjectCount": 5
               }
             }
@@ -10297,58 +10297,6 @@
       "무슨 일인가?"
     ]
   },
-  "beck": {
-    "name": "경비병 벡",
-    "positionIndex": 1,
-    "elementPath": "beck",
-    "events": {
-      "1": {
-        "eventTitle": "대화하기",
-        "eventState": "always_open",
-        "eventType": "chat",
-        "eventParameter": {
-          "eventScenes": [
-            {
-              "script": "근무 중 이상 무!!",
-              "characterPath": "beck",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "kadilla_castle_castlegate"
-            }
-          ]
-        }
-      }
-    },
-    "greetingMessages": [
-      "근무 중 이상 무!"
-    ]
-  },
-  "snocks": {
-    "name": "경비병 스눅스",
-    "positionIndex": 3,
-    "elementPath": "snocks",
-    "events": {
-      "1": {
-        "eventTitle": "대화하기",
-        "eventState": "always_open",
-        "eventType": "chat",
-        "eventParameter": {
-          "eventScenes": [
-            {
-              "script": "근무 중 이상 무!!",
-              "characterPath": "snocks",
-              "faceNumber": "01",
-              "speakerPosition": "left",
-              "backgroundPath": "kadilla_castle_castlegate"
-            }
-          ]
-        }
-      }
-    },
-    "greetingMessages": [
-      "근무 중 이상 무!"
-    ]
-  },
   "kadilla_castle_inn_owner": {
     "name": "여관주인",
     "positionIndex": 1,
@@ -10483,7 +10431,7 @@
             "rewardParameter": {
               "quest": {
                 "questName": "여관의 새단장",
-                "questObjectPath": "nacre",
+                "questObjectPath": "clam",
                 "questObjectCount": 3
               }
             }
